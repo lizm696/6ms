@@ -1,3 +1,2 @@
-markdown: redcarpet
 baseurl: /6thmorpethscouts
 exclude: ["README.md"]
