@@ -251,6 +251,7 @@ html, body {
       margin: 1.5rem; 
       width: 33%;
       background: rgba(0,0,0,0.5);
+      text-align: left;
       }
 
       .hero-button:hover {
