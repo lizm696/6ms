@@ -73,7 +73,7 @@ html, body {
     
       .hero {
         display: flex;
-        justify-content: left;
+        justify-content: center;
         align-items: center;
         color: white;
         margin: 0 1.5rem;
@@ -83,6 +83,7 @@ html, body {
       .hero-home {
         background: url('../images/scouts-in-canoes.jpg') center center/cover no-repeat;
         /*height: 70vh;*/
+        justify-content: left;
       }
     
 
