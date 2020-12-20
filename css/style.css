@@ -72,17 +72,21 @@ html, body {
     }
     
       .hero {
-        background: url('../images/scouts-in-canoes.jpg') center center/cover no-repeat;
-        /*height: 70vh;*/
         display: flex;
         justify-content: left;
         align-items: center;
         color: white;
         margin: 0 1.5rem;
+        background: blue;
+      }
+
+      .hero-home {
+        background: url('../images/scouts-in-canoes.jpg') center center/cover no-repeat;
+        /*height: 70vh;*/
       }
     
 
-      .hero .inner {
+      .hero-home .inner {
         margin: 1.5rem; 
         width: 100%;
         background: rgba(0,0,0,0.4);
