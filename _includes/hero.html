@@ -1,14 +1,18 @@
 
-          <div id="hero">
-            {% if page.title == "Beavers" %}
-            <div class="inner beavers-btn">
-              {% elsif page.title == "Cubs" %}
-              <div class="inner cubs-btn">
-                {% elsif page.title == "Scouts" %}
-                <div class="inner scouts-btn">
-                  {% else %}
-                  <div class="inner">
-                  {% endif %}
+       {% if page.title == "Beavers" %}
+          <div id="hero beavers-btn">
+       {% elsif page.title == "Cubs" %}
+          <div id="hero cubs-btn">
+       {% elsif page.title == "Scouts" %}
+          <div id="hero scouts-btn">
+        {% elsif page.title == "Explorers" %}
+        <div id="hero explorers-btn">
+        {% else %}
+        <div id="hero">
+          {% endif %}
+
+            <div class="inner">
+                
               <h1>{{ page.title }}</h1>
             </div><!--end inner-->
           </div><!--end hero-->
