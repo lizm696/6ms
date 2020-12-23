@@ -15,10 +15,22 @@
 
 </div>
 
-{% for extra in site.extras %}
-<p><b>{{ extra.name }}</b></p>
-<p>{{ extra.content | markdownify }}</p>
-{% endfor %}
+
+<!--  extra section -->
+<section id="extras">
+        <div class="inner">
+                <div class="flexdiv">
+            
+                        {% for extra in site.extras %}
+                        <div class="column beavers-btn">
+                                <p><b>{{ extra.name }}</b></p>
+                                <p>{{ extra.content | markdownify }}</p>        
+                        </div>
+                         {% endfor %}
+                </div>
+        </div>
+</section>
+
 </main>
 <!-- footer inc -->
         {% include footer.html %}
