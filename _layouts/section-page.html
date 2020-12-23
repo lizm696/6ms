@@ -18,6 +18,7 @@
 {% for extra in site.extras %}
 <p><b>{{ extra.name }}</b></p>
 <p>{{ extra.content | markdownify }}</p>
+{% endfor %}
 </main>
 <!-- footer inc -->
         {% include footer.html %}
