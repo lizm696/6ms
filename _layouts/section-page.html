@@ -22,7 +22,19 @@
                 <div class="flexdiv">
             
                         {% for extra in site.extras %}
-                        <div class="column beavers-btn">
+                        
+                                {% if page.title == "Beavers" %}
+                                        <div class="column beavers-btn">
+                                {% elsif page.title == "Cubs" %}
+                                        <div class="column cubs-btn">
+                                {% elsif page.title == "Scouts" %}
+                                        <div class="column scouts-btn">
+                                        {% elsif page.title == "Explorers" %}
+                                        <div class="column explorers-btn">
+                                        {% else %}
+                                        <div class="column">
+                                        {% endif %}
+
                                 <p><b>{{ extra.name }}</b></p>
                                 <p>{{ extra.content | markdownify }}</p>        
                         </div>
