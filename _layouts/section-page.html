@@ -21,9 +21,9 @@
         <div class="inner">
                 <div class="flexdiv">
             
-                        {% assign extra = site.extras | where: 'section' == page.title %}
+                        {% for extra in site.extras | where: 'section' == page.title %}
                         
-                        {% for extra %}
+               
                         
                                 {% if page.title == "Beavers" %}
                                         <div class="column beavers-btn">
