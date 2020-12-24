@@ -20,14 +20,14 @@
 <section id="extras">
         <div class="inner">
                 <div class="flexdiv">
-            
-                        {% for extra in site.extras | where: extra.section == page.title %}
-                        
-               
-                        {% assign extras = site.extras | where:'section', page.title %}
-
-              
-                {% for extra in extras %}
+                    
+                        {% assign sorted-extras = site.extras | where: "section", page.title %}
+{% for extra in sorted-extras %}
+<p><b>{{ extra.name }}</b></p>
+<p>{{ extra.content | markdownify }}</p>      
+{% endfor %}
+              <p>***</p>
+                {% for extra in site.extras %}
                         
                                 {% if page.title == "Beavers" %}
                                         <div class="column beavers-btn">
