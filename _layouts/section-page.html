@@ -23,7 +23,7 @@
             
                         {% assign extra = site.extras | where: 'section' == page.title %}
                         
-                        {% if extra %}
+                        {% for extra %}
                         
                                 {% if page.title == "Beavers" %}
                                         <div class="column beavers-btn">
@@ -40,7 +40,7 @@
                                 <p><b>{{ extra.name }}</b></p>
                                 <p>{{ extra.content | markdownify }}</p>        
                         </div>
-                         {% endif %}
+                         {% endfor %}
                 </div>
         </div>
 </section>
