@@ -152,14 +152,17 @@ html, body {
 
     .cubs-btn {
       background: #23a950;
+      color: white;
     }
     
     .scouts-btn {
       background: #004851;
+      color: white;
     }
     
     .explorers-btn {
       background: #003982;
+      color: white;
     }
     
     .section-logo {
