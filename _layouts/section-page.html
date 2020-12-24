@@ -21,7 +21,7 @@
         <div class="inner">
                 <div class="flexdiv">
             
-                        {% for extra in site.extras | where: 'section' == page.title %}
+                        {% for extra in site.extras | where: extra.section == page.title %}
                         
                
                         
