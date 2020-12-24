@@ -24,6 +24,10 @@
                         {% for extra in site.extras | where: extra.section == page.title %}
                         
                
+                        {% assign extras = site.extras | where:'section', page.title %}
+
+              
+                {% for extra in extras %}
                         
                                 {% if page.title == "Beavers" %}
                                         <div class="column beavers-btn">
