@@ -1,6 +1,7 @@
 ---
 name: Cubs Uniform
+section: Cubs
 ---
-Infor about Cubs uniform.
+Info about Cubs uniform.
 
 Where to put badges.
