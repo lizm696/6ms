@@ -21,8 +21,9 @@
         <div class="inner">
                 <div class="flexdiv">
             
-                        {% for extra in site.extras | where: 'section', page.title %}
+                        {% assign extra = site.extras | where: 'section', page.title %}
                         
+                        {% if extra %}
                         
                                 {% if page.title == "Beavers" %}
                                         <div class="column beavers-btn">
@@ -39,7 +40,7 @@
                                 <p><b>{{ extra.name }}</b></p>
                                 <p>{{ extra.content | markdownify }}</p>        
                         </div>
-                         {% endfor %}
+                         {% endif %}
                 </div>
         </div>
 </section>
