@@ -207,19 +207,18 @@ html, body {
     }
 
     .extra-img {
-      width: 250px;
-      height: 200px;
-      margin-right: 5px;
+      /*width: 250px;
+      height: 200px;*/
+      margin-right: 10px;
     }
 
     .fleur {
       width: 150px;
-      display: inline;
       margin: 5px 2px 5px 2px;
     }
 
     .extras-content {
-    
+    width: 60%;
     }
 
     #extras .column:nth-child(2) {
