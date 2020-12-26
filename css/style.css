@@ -145,22 +145,22 @@ html, body {
       padding: 10px 16px;
     }
     
-    .beavers-btn {
+    .beavers-colour {
       background:#006ddf;
       color: white;
     }
 
-    .cubs-btn {
+    .cubs-colour {
       background: #23a950;
       color: white;
     }
     
-    .scouts-btn {
+    .scouts-colour {
       background: #004851;
       color: white;
     }
     
-    .explorers-btn {
+    .explorers-colour {
       background: #003982;
       color: white;
     }
