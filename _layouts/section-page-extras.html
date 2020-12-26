@@ -9,17 +9,19 @@ layout: section-page
       <div class="flexdiv">
         <div class="column beavers-colour">
           <h2>{{ name }}</h2>
+<p>for/endfor to call image?</p>
+          {% for extra in site.extras %}
+<img src="{{ site.baseurl }}/{{ post.img }}">
+{% endfor %}
 
-          {% assign sorted-extras = site.extras | where: "section", page.title %}
-                        
-          {% for extra in sorted-extras %}
-          {% if extra.img %}
+          <p>using if statement</p>
+          {% if site.extra.img %}
           <img class="" src="{{site.baseurl}}/images/{{img}}">
     {% else %}
     <img class="" src="{{site.baseurl}}/images/beavers-listening.jpg">
     {% endif %}
-  {%endfor %}
-  
+
+
          {{ content }}
         </div>
         <!--<div class="column beavers-colour">
