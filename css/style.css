@@ -194,7 +194,7 @@ html, body {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
-    padding: 0 .5rem;  
+    /*padding: 0 .5rem;  */
     }
 
    img.fluid {
@@ -202,9 +202,9 @@ html, body {
     }
 
     .extra-img {
-      width: 350px;
+      width: 250px;
       display: inline;
-      margin-right: 10px;
+      margin-right: 5px;
     }
 
     #extras .column:nth-child(2) {
