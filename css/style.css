@@ -320,7 +320,9 @@ html, body {
   
     }
 
- 
+    .image {
+      width: 50%;
+    }
 
     .card-col {
       flex: 1;
