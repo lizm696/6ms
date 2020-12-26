@@ -4,4 +4,4 @@ section: Beavers
 img: canoes.jpg
 layout: section-page-extras
 ---
-Beavers promise here. Image showing?
+Beavers promise here. Image not showing
