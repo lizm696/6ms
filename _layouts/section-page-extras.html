@@ -10,12 +10,10 @@ layout: section-page
         <div class="column beavers-colour">
           <h2>{{ name }}</h2>
           {% if page.img %}
-          <img class="" data-interchange="
-  {% for img in page.img %}
-    [{{site.baseurl}}/asset/img/{{img[1]}} ({{img[0]}})]
-    {% unless forloop.last %}, {% endunless %}
-  {% endfor %}
-  ">
+          <img class="" src="{{site.baseurl}}/images/{{img}}">
+    {% else %}
+    <img class="" src="{{site.baseurl}}/images/beavers-listening.jpg">
+  {% endif %}
          {{ content }}
         </div>
         <!--<div class="column beavers-colour">
