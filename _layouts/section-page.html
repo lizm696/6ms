@@ -47,12 +47,15 @@
                                         flex: 1;
                                         padding: 10px;
                                     }
+                                    .myimg {
+                                            max-width: 100%;
+                                    }
                                 </style>
 
                                         <div class="media">
                                         <div class="image">
                                                 {% if extra.img %}
-                                                <img class="" src="{{site.baseurl}}/images/{{extra.img}}">
+                                                <img class="myimg" src="{{site.baseurl}}/images/{{extra.img}}">
                                                         {% else %}
                                                         <img class="fleur" src="{{site.baseurl}}/images/fleur-de-lis-marque-white.png">
                                                         {% endif %} 
