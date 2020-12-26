@@ -209,9 +209,10 @@ html, body {
     }
 
     .extra-img {
+      display: none;
       /*width: 250px;
       height: 200px;*/
-      max-width: 100%;
+     /* max-width: 100%;*/
       /*margin-right: 10px;*/
     }
 
