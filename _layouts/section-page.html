@@ -40,22 +40,21 @@
                                 <!-- extras -->
 
 
-                                        <div class="extras">
+                                       <!----<div class="extras">
                                         <div class="image">
                                                 {% if extra.img %}
                                                 <img class="extra-img" src="{{site.baseurl}}/images/{{extra.img}}">
                                                         {% else %}
                                                         <img class="fleur" src="{{site.baseurl}}/images/fleur-de-lis-marque-white.png">
                                                         {% endif %} 
-                                                <!--<img src="https://placehold.it/60x60" alt="placeholder">-->
+                                        </div>-->
+                                        <!--<div class="extras-content">--> <h2>{{ extra.name }}</h2>
+                                                {{ extra.content | markdownify }}   <!--</div>-->
                                         </div>
-                                        <div class="extras-content"> <h2>{{ extra.name }}</h2>
-                                                {{ extra.content | markdownify }}   </div>
-                                        </div>
-                                </div>
-                                {% endfor %}  
                 </div>
-                                </div>
+                                {% endfor %}  
+        </div>
+                               
 </section>
 
 </main>

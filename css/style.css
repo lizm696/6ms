@@ -320,8 +320,8 @@ html, body {
     
 
     .column {
-      /*padding: 0 1.2rem;*/
-        flex-direction: row;
+      padding: 0 1.2rem;
+      flex: 2;
   
     }
 
