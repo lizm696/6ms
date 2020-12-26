@@ -201,6 +201,11 @@ html, body {
       width: 100%;
     }
 
+    div.extras {
+      display: flex;
+      flex-direction: row;
+    }
+
     .extra-img {
       width: 270px;
       display: inline;
@@ -213,9 +218,8 @@ html, body {
       margin: 5px 2px 5px 2px;
     }
 
-
     .extras-content {
-      display: inline;
+    
     }
 
     #extras .column:nth-child(2) {
@@ -312,10 +316,8 @@ html, body {
       flex: 2;
     }
 
-    div.extras {
-      display: flex;
-      flex-direction: row;
-    }
+ 
+
     .card-col {
       flex: 1;
   }
