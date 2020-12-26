@@ -49,28 +49,25 @@
                                     }
                                 </style>
 
-                <div class="media">
-                   <div class="image"><img src="https://placehold.it/60x60" alt="placeholder"></div>
-                  <div class="content">This is the content of my media object. Items directly inside the flex container will be aligned to flex-start.</div>
-                 </div>
+                                        <div class="media">
+                                        <div class="image">
+                                                {% if extra.img %}
+                                                <img class="" src="{{site.baseurl}}/images/{{extra.img}}">
+                                                        {% else %}
+                                                        <img class="fleur" src="{{site.baseurl}}/images/fleur-de-lis-marque-white.png">
+                                                        {% endif %} 
+                                                <!--<img src="https://placehold.it/60x60" alt="placeholder">-->
+                                        </div>
+                                        <div class="content"> <b>{{ extra.name }}</b>
+                                                {{ extra.content | markdownify }}   </div>
+                                        </div>
+                        
       
-      
-                                {% if extra.img %}
-                                <div class="extras">
-                                        <img class="extra-img" src="{{site.baseurl}}/images/{{extra.img}}">
-                                {% else %}
-                                <img class="fleur" src="{{site.baseurl}}/images/fleur-de-lis-marque-white.png">
-                                {% endif %} 
-                                        <div class="extras-content">
-                                                <p><b>{{ extra.name }}</b></p>
-                                                <p>{{ extra.content | markdownify }}</p>      
-                                        </div>  
-                                </div>     
-                                </div>
-                                {% endfor %}
+                              
                        
+                                </div>
                 </div>
-        </div>
+                                </div>
 </section>
 
 </main>
