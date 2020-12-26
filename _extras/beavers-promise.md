@@ -2,6 +2,5 @@
 name: Beavers Promise
 section: Beavers
 img: canoes.jpg
-layout: section-page-extras
 ---
-Beavers promise here. Image not showing
+Beavers promise here. canoe img test
