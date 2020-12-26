@@ -202,7 +202,7 @@ html, body {
     }
 
     .extra-img {
-      width: 200px;
+      width: 270px;
       display: inline;
       margin-right: 5px;
     }
@@ -303,8 +303,12 @@ html, body {
     
 
     .column {
-      padding: 0 1.2rem;
+      /*padding: 0 1.2rem;*/
       flex: 2;
+    }
+
+    .extras-content {
+      display: inline;
     }
 
     .card-col {
