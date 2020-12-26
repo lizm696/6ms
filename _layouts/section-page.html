@@ -39,6 +39,7 @@
                                  
                                 <!-- extras -->
                                 {% if extra.img %}
+                                <div class="extras">
                                         <img class="extra-img" src="{{site.baseurl}}/images/{{extra.img}}">
                                 {% else %}
                                 <img class="fleur" src="{{site.baseurl}}/images/fleur-de-lis-marque-white.png">
@@ -46,7 +47,8 @@
                                         <div class="extras-content">
                                                 <p><b>{{ extra.name }}</b></p>
                                                 <p>{{ extra.content | markdownify }}</p>      
-                                        </div>       
+                                        </div>  
+                                </div>     
                                 </div>
                                 {% endfor %}
                        

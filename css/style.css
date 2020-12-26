@@ -312,6 +312,10 @@ html, body {
       flex: 2;
     }
 
+    div.extras {
+      display: flex;
+      flex-direction: row;
+    }
     .card-col {
       flex: 1;
   }
