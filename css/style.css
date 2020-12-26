@@ -202,7 +202,9 @@ html, body {
     }
 
     .extra-img {
-      width: 150px;
+      width: 350px;
+      display: inline;
+      margin-right: 10px;
     }
 
     #extras .column:nth-child(2) {
