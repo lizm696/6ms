@@ -194,7 +194,8 @@ html, body {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
-  }
+    padding: 0 .5rem;  
+    }
 
    img.fluid {
       width: 100%;
