@@ -207,6 +207,12 @@ html, body {
       margin-right: 5px;
     }
 
+    .fleur {
+      width: 150px;
+      display: inline;
+      margin: 5px 2px 5px 2px;
+    }
+
     #extras .column:nth-child(2) {
       border-top: 1px lightgrey solid;
       border-bottom: 1px lightgrey solid;

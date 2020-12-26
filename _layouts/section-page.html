@@ -41,12 +41,12 @@
                                 {% if extra.img %}
                                         <img class="extra-img" src="{{site.baseurl}}/images/{{extra.img}}">
                                 {% else %}
-                                <img class="extra-img" src="{{site.baseurl}}/images/fleur-de-lis-marque-white.png">
+                                <img class="fleur" src="{{site.baseurl}}/images/fleur-de-lis-marque-white.png">
                                 {% endif %} 
-
-                                        <p><b>{{ extra.name }}</b></p>
-                                        <p>{{ extra.content | markdownify }}</p>      
-
+                                        <div class="extras-content">
+                                                <p><b>{{ extra.name }}</b></p>
+                                                <p>{{ extra.content | markdownify }}</p>      
+                                        </div>       
                                 </div>
                                 {% endfor %}
                        
