@@ -9,9 +9,9 @@ layout: section-page
       <div class="flexdiv">
         <div class="column beavers-colour">
           <h2>{{ name }}</h2>
-<p>for/endfor to call image?</p>
+<p>section-page-extras layout: for/endfor to call image?</p>
           {% for extra in site.extras %}
-<img src="{{ site.baseurl }}/{{ post.img }}">
+<img src="{{ site.baseurl }}/images/{{img}}">
 {% endfor %}
 
           <p>using if statement</p>
