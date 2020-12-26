@@ -202,14 +202,17 @@ html, body {
     }
 
     div.extras {
+     
+      /*flex-direction: row;*/
       display: flex;
-      flex-direction: row;
+    align-items: flex-start;
     }
 
     .extra-img {
       /*width: 250px;
       height: 200px;*/
-      margin-right: 10px;
+      max-width: 100%;
+      /*margin-right: 10px;*/
     }
 
     .fleur {
@@ -218,7 +221,8 @@ html, body {
     }
 
     .extras-content {
-    width: 60%;
+      flex: 1;
+      padding: 10px;
     }
 
     #extras .column:nth-child(2) {
@@ -312,7 +316,8 @@ html, body {
 
     .column {
       /*padding: 0 1.2rem;*/
-      flex: 2;
+        flex-direction: row;
+  
     }
 
  
