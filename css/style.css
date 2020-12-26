@@ -213,6 +213,11 @@ html, body {
       margin: 5px 2px 5px 2px;
     }
 
+
+    .extras-content {
+      display: inline;
+    }
+
     #extras .column:nth-child(2) {
       border-top: 1px lightgrey solid;
       border-bottom: 1px lightgrey solid;
@@ -305,10 +310,6 @@ html, body {
     .column {
       /*padding: 0 1.2rem;*/
       flex: 2;
-    }
-
-    .extras-content {
-      display: inline;
     }
 
     .card-col {
