@@ -3,4 +3,6 @@ name: Beavers Promise
 section: Beavers
 img: canoes.jpg
 ---
-Beavers promise here. canoe img test
+*"I promise to do my best,
+To be kind and helpful,
+and to love God."*
