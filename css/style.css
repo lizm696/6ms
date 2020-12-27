@@ -200,6 +200,34 @@ html, body {
     width: 100%;
   }
 
+  #boxes-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  #boxes-wrapper div {
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+  }
+
+  .box-img-wrap {
+    flex-grow: 0;
+      flex-shrink: 1;
+      flex-basis: 45%;
+    }
+    
+    .box-content {
+    flex-basis: 55%;
+    }
+    
+    .box-content p {
+    margin: 5px;
+    }
+
+  /* is this used? */
   .extras-img-container {
     max-width: 100%;
   }
@@ -234,44 +262,6 @@ html, body {
     color: white;
   }
   
-/* ***** new column layout ***** */
-
-
-       /*section - direction = row for larger screens*/
-     .container-test { 
-       display: flex;
-       flex-direction: column;
-       padding: 5px;
-       
-       }
-       
-      /*extras column/row container */ 
-     .red {
-       background: orangered;
-       display: flex;
-       flex-direction: row;
-       margin: 0 2px;
-     }
-       /* pic div */
-     .green {
-       background: yellowgreen;
-     }
-       /*content div */
-     .blue {
-       background: steelblue;
-     }
-       /*all divs within the section container*/
-     .container-test div {
-       font-size: 1rem;
-       padding: .5em;
-       color: white;
-       /*flex: 1;*/
-     }
-       
-       
-       
-   
-
   /* *********** media query for larger screens (laptop/desktop) *********** */
   @media (min-width: 991px) {
       #navbar {
@@ -356,10 +346,16 @@ margin-left: auto;
 }
 
 /* *** new column layout *** */
-
-  .container-test { 
-display: flex;
-flex-direction: row;
-}
-
+@media (min-width:767px) {
+  #boxes-wrapper {
+    flex-direction: row;
+    }
+    
+    #boxes-wrapper div {
+      flex-direction: row;
+    }
+    
+    .box {
+    width: 49.8%;
+    }
 }

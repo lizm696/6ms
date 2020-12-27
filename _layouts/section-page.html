@@ -26,9 +26,9 @@
                         {% for extra in sorted-extras %}
 
                                 {% if page.title == "Beavers" %}
-                                <div class="container-test beavers-colour">
+                                <div class="beavers-colour">
                                 {% elsif page.title == "Cubs" %}
-                                <div class="container-test cubs-colour">
+                                <div class="column cubs-colour">
                                 {% elsif page.title == "Scouts" %}
                                 <div class="column scouts-colour">
                                 {% elsif page.title == "Explorers" %}
@@ -38,43 +38,29 @@
                                 {% endif %}
      
 
+                        <!--- *********** -->
 
-        <div class="red">
-          <div class="green">Lorem ipsum la de da de da <br>
-          Lorem ipsum la de da de da <br>
-            Lorem ipsum la de da de da <br>
-          Lorem ipsum la de da de da <br>
-          Lorem ipsum la de da de da <br>
-          </div>
-          <div class="blue">Lorem ipsum la de da de da <br>
-          Lorem ipsum la de da de da <br>
-            Lorem ipsum la de da de da <br>
-          Lorem ipsum la de da de da <br>
-          Lorem ipsum la de da de da <br>
-          Lorem ipsum la de da de da <br>
-          Lorem ipsum la de da de da <br>
-            Lorem ipsum la de da de da <br>
-          Lorem ipsum la de da de da <br>
-          Lorem ipsum la de da de da <br>
-          </div>
-        </div><!-- end red -->
-          <div class="red">
-                <div class="green">
-                Lorem ipsum la de da de da <br>
-                Lorem ipsum la de da de da <br>
-                Lorem ipsum la de da de da <br>
-                Lorem ipsum la de da de da <br>
-                Lorem ipsum la de da de da <br></div>
-                <div class="blue">Lorem ipsum la de da de da <br>
-                Lorem ipsum la de da de da <br>
-                Lorem ipsum la de da de da <br>
-                Lorem ipsum la de da de da <br>
-                Lorem ipsum la de da de da <br>
-                Lorem ipsum la de da de da <br>
-                </div>
-        </div><!--end red-->
-    
-                        <!-- end new column layout test -->
+                        <div id="boxes-wrapper">
+                        
+                        
+                                <div class="box">
+                                        <div class="box-img-wrap">
+                                                {% if extra.img %}
+                                                <img class="extra-img" src="{{site.baseurl}}/images/{{extra.img}}">
+                                        {% else %}
+                                        <img class="extra-img" src="{{site.baseurl}}/images/beavers-listening.jpg">
+                                        {% endif %} 
+                                        </div><!--img wrap-->
+                                        <div class="box-content">
+                                                <p><b>{{ extra.name }}</b></p>
+                                                <p>{{ extra.content | markdownify }}</p>      
+                                        </div>
+                        </div><!--box-->
+                        </div><!-- box wrapper-->
+                        <!--- ************ -->
+
+
+       
 
                                  
                                 <!--<div class="extras-img-container">
