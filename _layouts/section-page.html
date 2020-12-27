@@ -37,26 +37,44 @@
                                 <div class="column">
                                 {% endif %}
                              
-                                <!-- extras -->
+                                 <!-- extras -->
 
-
-                                       <!----<div class="extras">
-                                        <div class="image">
-                                                {% if extra.img %}
-                                                <img class="extra-img" src="{{site.baseurl}}/images/{{extra.img}}">
-                                                        {% else %}
-                                                        <img class="fleur" src="{{site.baseurl}}/images/fleur-de-lis-marque-white.png">
-                                                        {% endif %} 
-                                        </div>-->
-                                        <!--<div class="extras-content">--> <h2>{{ extra.name }}</h2>
-                                                {{ extra.content | markdownify }}   <!--</div>-->
-                                        </div>
-                </div>
-                                {% endfor %}  
-        </div>
+                                 <!--example mdn code -->
+                                 <style>
+                                        .media {
+                                                display: flex;
+                                                align-items: flex-start;
+                                            }
+                                            .media .content {
+                                                flex: 1;
+                                                padding: 10px;
+                                            }
+                                        </style>
+        
+                        <div class="media">
+                           <div class="image"><img src="https://placehold.it/60x60" alt="placeholder"></div>
+                          <div class="content">This is the content of my media object. Items directly inside the flex container will be aligned to flex-start.</div>
+                         </div>
+              
+              <!---my code -->
+                                        {% if extra.img %}
+                                        <div class="extras">
+                                                        <img class="extra-img" src="{{site.baseurl}}/images/{{extra.img}}">
+                                                {% else %}
+                                                <img class="fleur" src="{{site.baseurl}}/images/fleur-de-lis-marque-white.png">
+                                                {% endif %} 
+                                                        <div class="extras-content">
+                                                                <p><b>{{ extra.name }}</b></p>
+                                                                <p>{{ extra.content | markdownify }}</p>      
+                                                        </div>  <!--extras-content-->
+                                        </div>   <!--extras-->  
+                                        </div><!-- end column -->
+                                        {% endfor %}
                                
-</section>
-
-</main>
-<!-- footer inc -->
-        {% include footer.html %}
+                        </div><!-- end flexdiv -->
+                </div><!-- end inner div -->
+        </section>
+        
+        </main>
+        <!-- footer inc -->
+                {% include footer.html %}
