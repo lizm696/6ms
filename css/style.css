@@ -113,7 +113,7 @@ html, body {
     .flexdiv {
       display: flex;
       flex-direction: row;
-      flex-wrap: wrap;
+      /*flex-wrap: wrap;*/
       width: 100%;
     }
   
@@ -262,6 +262,7 @@ html, body {
      }
        /*all divs within the section container*/
      .container-test div {
+       font-size: 1rem;
        padding: .5em;
        color: white;
        /*flex: 1;*/
