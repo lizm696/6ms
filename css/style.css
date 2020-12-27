@@ -262,7 +262,6 @@ html, body {
      }
        /*all divs within the section container*/
      .container-test div {
-       font-size: 5vw;
        padding: .5em;
        color: white;
        /*flex: 1;*/
