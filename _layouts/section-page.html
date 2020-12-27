@@ -36,6 +36,90 @@
                                 {% else %}
                                 <div class="column">
                                 {% endif %}
+
+                                 <!-- NEW column layout test -->
+
+                                 <style>
+                                        /*section - direction = row for larger screens*/
+                                      .container-test { 
+                                        display: flex;
+                                        flex-direction: column;
+                                        background: yellow;
+                                        padding: 5px;
+                                        
+                                        }
+                                        
+                                       /*extras column/row container */ 
+                                      .red {
+                                        background: orangered;
+                                        display: flex;
+                                        flex-direction: row;
+                                        margin: 0 2px;
+                                      }
+                                        /* pic div */
+                                      .green {
+                                        background: yellowgreen;
+                                      }
+                                        /*content div */
+                                      .blue {
+                                        background: steelblue;
+                                      }
+                                        /*all divs within the section container*/
+                                      .container-test div {
+                                        font-size: 5vw;
+                                        padding: .5em;
+                                        color: white;
+                                        /*flex: 1;*/
+                                      }
+                                        
+                                        @media (min-width: 991px) {
+                                          .container-test { 
+                                        display: flex;
+                                        flex-direction: row;
+                                        
+                                        }
+                                        }
+                                        
+                                      </style>
+
+<div class="container-test">
+        <div class="red">
+          <div class="green">Lorem ipsum la de da de da <br>
+          Lorem ipsum la de da de da <br>
+            Lorem ipsum la de da de da <br>
+          Lorem ipsum la de da de da <br>
+          Lorem ipsum la de da de da <br>
+          </div>
+          <div class="blue">Lorem ipsum la de da de da <br>
+          Lorem ipsum la de da de da <br>
+            Lorem ipsum la de da de da <br>
+          Lorem ipsum la de da de da <br>
+          Lorem ipsum la de da de da <br>
+          Lorem ipsum la de da de da <br>
+          Lorem ipsum la de da de da <br>
+            Lorem ipsum la de da de da <br>
+          Lorem ipsum la de da de da <br>
+          Lorem ipsum la de da de da <br>
+          </div>
+        </div>
+          <div class="red">
+        <div class="green">
+            Lorem ipsum la de da de da <br>
+          Lorem ipsum la de da de da <br>
+            Lorem ipsum la de da de da <br>
+          Lorem ipsum la de da de da <br>
+          Lorem ipsum la de da de da <br></div>
+        <div class="blue">Lorem ipsum la de da de da <br>
+          Lorem ipsum la de da de da <br>
+          Lorem ipsum la de da de da <br>
+            Lorem ipsum la de da de da <br>
+          Lorem ipsum la de da de da <br>
+          Lorem ipsum la de da de da <br>
+            </div>
+        </div>
+      </div>
+      <!-- end new column layout test -->
+
                                  
                                 <div class="extras-img-container">
                                 {% if extra.img %}
