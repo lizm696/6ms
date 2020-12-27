@@ -200,6 +200,10 @@ html, body {
     width: 100%;
   }
 
+  .extras-img-container {
+    max-width: 100%;
+  }
+
   #extras .column:nth-child(2) {
     border-top: 1px lightgrey solid;
     border-bottom: 1px lightgrey solid;
