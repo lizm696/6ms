@@ -36,17 +36,17 @@
                                 {% else %}
                                 <div class="column">
                                 {% endif %}
-                                 
+                                 <div class="extras-img-container">
                                 {% if extra.img %}
                                         <img class="extra-img" src="{{site.baseurl}}/images/{{extra.img}}">
                                 {% else %}
                                 <img class="extra-img" src="{{site.baseurl}}/images/beavers-listening.jpg">
                                 {% endif %} 
-
-                                        <p><b>{{ extra.name }}</b></p>
+                        </div><!--end extra-img-container-->
+                                       <div class="extras-content"><p><b>{{ extra.name }}</b></p>
                                         <p>{{ extra.content | markdownify }}</p>      
-
-                                </div>
+                                </div> <!--end extras.content div-->
+                                </div><!--end column -->
                                 {% endfor %}
                        
                 </div>
