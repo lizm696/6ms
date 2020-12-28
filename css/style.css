@@ -198,6 +198,7 @@ html, body {
 
  img.fluid {
     width: 100%;
+    display: block;
   }
 
   #boxes-wrapper {
@@ -216,6 +217,7 @@ html, body {
     
     .box-content {
     flex-basis: 55%;
+    padding: .5rem;
     }
     
     .box-content p, .box-content h2 {
