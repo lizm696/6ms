@@ -27,7 +27,9 @@ html, body {
      -ms-box-shadow: none;
   }
   
-
+a, a:visted {
+  color: #003982;
+}
   .logo {
     margin: auto;
     width: 70%;
@@ -207,6 +209,9 @@ html, body {
     justify-content: space-between;
   }
   
+  .box a, .box a:visited {
+    color: white;
+  }
 
 
   .box-img-wrap {
