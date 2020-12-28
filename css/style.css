@@ -206,23 +206,21 @@ html, body {
     justify-content: space-between;
   }
   
-  #boxes-wrapper div {
-  display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
+
 
   .box-img-wrap {
-    flex-grow: 0;
+    /*flex-grow: 0;*/
       flex-shrink: 1;
       flex-basis: 45%;
+      border: 2px yellow solid;
     }
     
     .box-content {
     flex-basis: 55%;
+    background: pink;
     }
     
-    .box-content p {
+    .box-content p, .box-content h2 {
     margin: 5px;
     }
 
@@ -351,6 +349,7 @@ margin-left: auto;
     }
     
     .box {
+    display:flex;
     width: 49.8%;
     }
 }
