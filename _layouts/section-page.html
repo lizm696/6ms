@@ -39,8 +39,6 @@
                                         <div class="box">
                                         {% endif %}
              
-                        
-                               <!----<div class="box">-->
                                         <div class="box-img-wrap">
                                                 {% if extra.img %}
                                                 <img class="fluid" src="{{site.baseurl}}/images/{{extra.img}}">
@@ -53,10 +51,11 @@
                                                 <p>{{ extra.content | markdownify }}</p>      
                                         </div><!-- box content -->
                                 </div><!-- box -->
+                                {% endfor %}
                         </div><!-- box wrapper -->
                     
                        
-                {% endfor %}
+              
                              
 </section>
 
