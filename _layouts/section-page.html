@@ -18,7 +18,7 @@
 
 <!--  extra section -->
 <section id="boxes-section">
-        <div class="inner">
+       
                 <!--<div class="flexdiv">-->
                     
                         <div id="boxes-wrapper">
@@ -43,38 +43,21 @@
                                <!----<div class="box">-->
                                         <div class="box-img-wrap">
                                                 {% if extra.img %}
-                                                <img class="extra-img" src="{{site.baseurl}}/images/{{extra.img}}">
+                                                <img class="fluid" src="{{site.baseurl}}/images/{{extra.img}}">
                                         {% else %}
-                                        <img class="extra-img" src="{{site.baseurl}}/images/beavers-listening.jpg">
+                                        <img class="fluid" src="{{site.baseurl}}/images/beavers-listening.jpg">
                                         {% endif %} 
                                         </div><!--img wrap-->
                                         <div class="box-content">
-                                                <p><b>{{ extra.name }}</b></p>
+                                                <h2>{{ extra.name }}</h2>
                                                 <p>{{ extra.content | markdownify }}</p>      
                                         </div><!-- box content -->
                                 </div><!-- box -->
                         </div><!-- box wrapper -->
-                        <!--- ************ -->
-
-
-       
-
-                                 
-                                <!--<div class="extras-img-container">
-                                {% if extra.img %}
-                                        <img class="extra-img" src="{{site.baseurl}}/images/{{extra.img}}">
-                                {% else %}
-                                <img class="extra-img" src="{{site.baseurl}}/images/beavers-listening.jpg">
-                                {% endif %} 
-                        </div>--><!--end extra-img-container-->
-                                       <!--<div class="extras-content"><p><b>{{ extra.name }}</b></p>
-                                        <p>{{ extra.content | markdownify }}</p>      
-                                </div>--> <!--end extras.content div-->
-                                <!--</div>--><!--end column -->
-                               
+                    
                        
                 {% endfor %}
-                                </div><!--end inner -->
+                             
 </section>
 
 </main>

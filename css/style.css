@@ -212,10 +212,6 @@ html, body {
     flex-wrap: wrap;
   }
 
-  #boxes-wrapper img {
-    max-width: 100%;
-  }
-
   .box-img-wrap {
     flex-grow: 0;
       flex-shrink: 1;
@@ -230,10 +226,6 @@ html, body {
     margin: 5px;
     }
 
-  /* is this used? */
-  .extras-img-container {
-    max-width: 100%;
-  }
 
   #extras .column:nth-child(2) {
     border-top: 1px lightgrey solid;
