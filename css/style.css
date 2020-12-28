@@ -210,7 +210,10 @@ html, body {
   display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-  
+  }
+
+  #boxes-wrapper img {
+    max-width: 100%;
   }
 
   .box-img-wrap {

@@ -17,33 +17,30 @@
 
 
 <!--  extra section -->
-<section id="extras">
+<section id="boxes-section">
         <div class="inner">
-                <div class="flexdiv">
+                <!--<div class="flexdiv">-->
                     
-                        {% assign sorted-extras = site.extras | where: "section", page.title %}
-                        
-                        {% for extra in sorted-extras %}
-
-                                {% if page.title == "Beavers" %}
-                                <div class="beavers-colour">
-                                {% elsif page.title == "Cubs" %}
-                                <div class="column cubs-colour">
-                                {% elsif page.title == "Scouts" %}
-                                <div class="column scouts-colour">
-                                {% elsif page.title == "Explorers" %}
-                                <div class="column explorers-colour">
-                                {% else %}
-                                <div class="column">
-                                {% endif %}
-     
-
-                        <!--- *********** -->
-
                         <div id="boxes-wrapper">
                         
+                                {% assign sorted-extras = site.extras | where: "section", page.title %}
                         
-                                <div class="box">
+                                {% for extra in sorted-extras %}
+        
+                                        {% if page.title == "Beavers" %}
+                                        <div class="box beavers-colour">
+                                        {% elsif page.title == "Cubs" %}
+                                        <div class="box cubs-colour">
+                                        {% elsif page.title == "Scouts" %}
+                                        <div class="box scouts-colour">
+                                        {% elsif page.title == "Explorers" %}
+                                        <div class="box explorers-colour">
+                                        {% else %}
+                                        <div class="box">
+                                        {% endif %}
+             
+                        
+                               <!----<div class="box">-->
                                         <div class="box-img-wrap">
                                                 {% if extra.img %}
                                                 <img class="extra-img" src="{{site.baseurl}}/images/{{extra.img}}">
@@ -54,9 +51,9 @@
                                         <div class="box-content">
                                                 <p><b>{{ extra.name }}</b></p>
                                                 <p>{{ extra.content | markdownify }}</p>      
-                                        </div>
-                        </div><!--box-->
-                        </div><!-- box wrapper-->
+                                        </div><!-- box content -->
+                                </div><!-- box -->
+                        </div><!-- box wrapper -->
                         <!--- ************ -->
 
 
@@ -76,9 +73,7 @@
                                 <!--</div>--><!--end column -->
                                
                        
-                </div><!-- end container-test / column from if statement-->
                 {% endfor %}
-        </div><!--flex div-->
                                 </div><!--end inner -->
 </section>
 
