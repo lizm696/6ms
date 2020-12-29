@@ -17,8 +17,11 @@
 </div>
 
       
-          {% assign sorted-full-width-content = site.full-width-content | where: "section", page.title %}
-                {% if full-width-content.section %}
+          {% assign sorted-full-width-contents = site.full-width-contents | where: "section", page.title %}
+          
+          {% for full-width-content in sorted-full-width-contents %}
+          
+          {% if full-width-content.section %}
           <section id="fullwidth" class="outer">
                 <div class="inner">
 
@@ -35,6 +38,7 @@
         </section>
         {% else %}
         {% endif %}
+        {% endfor %}
 
 <!--  extra section -->
 <section id="boxes-section">
