@@ -1,6 +1,7 @@
 ---
 name: Cubs Uniform
 section: Cubs
+img: canoes.jpg
 ---
 Find out everything you need to know about [what Cubs wear and where badges go](https://www.scouts.org.uk/cubs/cubs-uniform-and-badge-placement/)
 
