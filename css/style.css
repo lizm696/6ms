@@ -357,7 +357,6 @@ margin-left: auto;
     .box {
     display:flex;
     width: 49.8%;
-    max-height: 250px;
     }
 
     #extras img, #boxes-section img {
