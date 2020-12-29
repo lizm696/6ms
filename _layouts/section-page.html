@@ -16,11 +16,12 @@
 
 </div>
 
-<section id="fullwidth" class="outer">
-        <div class="inner">
       
           {% assign sorted-full-width-content = site.full-width-content | where: "section", page.title %}
-      
+                {% if full-width-content.section %}
+          <section id="fullwidth" class="outer">
+                <div class="inner">
+
           <h2>{{ full-width-content.name }}</h2>
           <div class="flexdiv">
       <div class="column">
@@ -32,6 +33,8 @@
       </div><!-- end flexdiv -->
         </div><!-- end inner -->
         </section>
+        {% else %}
+        {% endif %}
 
 <!--  extra section -->
 <section id="boxes-section">
