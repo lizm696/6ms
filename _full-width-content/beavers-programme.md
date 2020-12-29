@@ -1,5 +1,5 @@
 ---
-section: beavers
+section: Beavers
 name: Programme
 ---
 
