@@ -359,4 +359,8 @@ margin-left: auto;
     width: 49.8%;
     max-height: 250px;
     }
+
+    #extras img, #boxes-section img {
+      min-height:225px;
+    }
 }
