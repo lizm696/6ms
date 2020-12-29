@@ -1,5 +1,4 @@
 ---
-layout: full-width-content
 section: beavers
 ---
 
