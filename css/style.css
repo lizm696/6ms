@@ -345,7 +345,7 @@ margin-left: auto;
 }
 
 /* *** new column layout *** */
-@media (min-width:767px) {
+@media (min-width:991px) /*previously767*/{
   #boxes-wrapper {
     flex-direction: row;
     }
