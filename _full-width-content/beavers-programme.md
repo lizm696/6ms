@@ -1,0 +1,6 @@
+---
+layout: full-width-content
+section: beavers
+---
+
+This term beavers will be doing x, y, z. All activities are subject to change.
