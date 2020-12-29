@@ -203,6 +203,7 @@ a, a:visted {
     display: block;
   }
 
+
   #boxes-wrapper {
     display: flex;
     flex-direction: column;
@@ -222,7 +223,7 @@ a, a:visted {
     
     .box-content {
     flex-basis: 55%;
-    padding: .5rem;
+    padding: .2rem;
     }
     
     .box-content p, .box-content h2 {
