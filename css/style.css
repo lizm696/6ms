@@ -139,6 +139,10 @@ a, a:visted {
   .section-link p {
    color: white; 
   }
+
+  .section-link a {
+    text-decoration: none;
+  }
   
   .container {
      display: flex;
