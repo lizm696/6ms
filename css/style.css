@@ -372,6 +372,12 @@ margin-left: auto;
     
      @media (min-width: 1367px) {
      #hero-home {
-       min-height: 35vh;
+       min-height: 55vh;
+       display: flex;
+       }
+       
+         #hero-home .inner {
+           height: 100%;
+           align-self: center;
        }
     }
