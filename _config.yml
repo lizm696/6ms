@@ -2,4 +2,4 @@ baseurl: /6thmorpethscouts
 exclude: ["README.md"]
 collections:
   extras:
-  full-width-content:
+  full-width-contents:
