@@ -350,8 +350,8 @@ a, a:visted {
 margin-left: auto;
 }
 
-/* *** new column layout *** */
-@media (min-width:991px) /*previously767*/{
+/* *** column layout *** */
+@media (min-width:991px) {
   #boxes-wrapper {
     flex-direction: row;
     }
@@ -369,3 +369,9 @@ margin-left: auto;
       min-height:200px;
     }
 }
+    
+     @media (min-width: 1367px) {
+     #hero-home {
+       min-height: 35vh;
+       }
+    }
