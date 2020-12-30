@@ -1,7 +1,7 @@
 ---
 name: Scouts Promise
 section: Scouts
-img: scout-science.jpg
+img: scouts-canoeing.jpg
 ---
 
 _On my honour, I promise that I will do my best\
