@@ -1,6 +1,7 @@
 ---
 name: Beavers Uniform
 section: Beavers
+img: beaver-running.jpg
 ---
 Find out everything you need to know about [what Beavers wear and where badges go](https://www.scouts.org.uk/cubs/beavers-uniform-and-badge-placement/)
 
