@@ -25,6 +25,7 @@ html, body {
      -webkit-box-shadow: none;
      -moz-box-shadow: none;
      -ms-box-shadow: none;
+    display: inline;
   }
   
 a, a:visted {
