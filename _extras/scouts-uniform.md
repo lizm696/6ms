@@ -1,7 +1,7 @@
 ---
 section: Scouts
 name: Uniform
-img: scouts-canoeing.jpg
+img: scout-science.jpg
 ---
 
-See the Scouts UK website for information on [what Scouts wear and where badges go](https://www.scouts.org.uk/cubs/scouts-uniform-and-badge-placement/)
+The Scouts UK website has everything you need to know about [what Scouts wear and where badges go](https://www.scouts.org.uk/cubs/scouts-uniform-and-badge-placement/)
