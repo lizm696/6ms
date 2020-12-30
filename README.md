@@ -1,4 +1,4 @@
-# 6thmorpethscouts
+# 6thmorpethscouts - info for editors
 
 
 ## Content 
