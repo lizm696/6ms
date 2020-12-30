@@ -3,10 +3,16 @@ layout: section-page
 ---
 <section id="fullwidth" class="outer">
   <div class="inner">
-    <h2>{{ name }}</h2>
+
+    {% assign sorted-full-width-content = site.full-width-content | where: "section", page.title %}
+
+    <h2>{{ full-width-content.name }}</h2>
     <div class="flexdiv">
 <div class="column">
-{{ content }}
+
+                        
+ 
+{{ full-width-content.content }}
 
 </div><!-- end column -->
 
