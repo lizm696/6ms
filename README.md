@@ -33,6 +33,8 @@ img: imagename.jpg
 ## Site setup
 Layout templates - these are files that control the layout of the pages. Editing these can break your site! They are found in the \_layouts folder. There are two layouts, one for the homepage and one for all other pages.
 
+\_includes - these are parts that are reused across the site, such as the header (navigation) and footer that appear on every page. Again, editing these can break your site!
+
 
 
 
