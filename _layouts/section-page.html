@@ -29,14 +29,14 @@
           <div class="flexdiv">
       <div class="column">
       
-      {{ full-width-content.content }}
+      {{ full-width-content.content | markdownify }}
       
       </div><!-- end column -->
       
       </div><!-- end flexdiv -->
         </div><!-- end inner -->
         </section>
-        {% else %}
+        {% else %} <p>full width area?</p>
         {% endif %}
         {% endfor %}
 
