@@ -1,14 +1,18 @@
 # 6thmorpethscouts
 
-## Site setup
-Layout templates - these are files that control the layout of the pages. Editing these can break your site! They are found in the \_layouts folder.
+
+## Content 
 Content pages are broken down into different sections to allow editors to change text without inadvertently altering code that would compromise the layout.
 
-
-### Content 
 The content is written in markdown files (files with the extension .md). To edit, open a markdown file in Github by clicking on the pencil icon. Save your changes and the live site will be updated almost instantly.
 
-### Images
+beavers.md, cubs.md etc - these contain the main content of your page (the first text that will appear).
+\_extras - the files in this folder appear as content in the boxes on each section's page.
+\_full-width-contents - these files hold the content for the shaded area above the boxes (currently showing programme info for each section). 
+
+If no file exists, then no box/shaded area will appear.
+
+## Images
 All images should be uploaded to the 'images' folder. 
 
 Other than the 'hero' image (the full width image) on the homepage, all other images are saved at 600x400 pixels (and 72dpi/pixels per inch) and will scale depending on where they appear on the site (e.g. images in the 3 columns on the homepage will appear smaller than an image added within the body of the Beavers page). Save all your images at 600x400 for consistency. 
@@ -26,6 +30,8 @@ img: imagename.jpg
 ---
 ```
 
+## Site setup
+Layout templates - these are files that control the layout of the pages. Editing these can break your site! They are found in the \_layouts folder.
 
 
 
