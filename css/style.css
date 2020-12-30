@@ -269,7 +269,8 @@ a, a:visted {
   @media (min-width: 991px) {
       #navbar {
           flex-direction: row;
-          justify-content: space-around;
+          justify-content: space-between;
+          padding: .5rem 2.6rem;
       }
 
       .logo {
