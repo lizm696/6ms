@@ -1,6 +1,7 @@
 ---
 section: Beavers
 name: Beavers Programme
+layout: inline-img
 ---
 An example of a full term of activities at 6th Morpeth Beavers.
 
@@ -21,3 +22,5 @@ HALF TERM
 * Card delivery
 * Carol Singing
 * Christmas Crafts
+
+![Canoes](/images/canoes.jpg)
