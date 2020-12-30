@@ -1,10 +1,10 @@
 ---
-section: cubs
+section: Cubs
 name: Cubs Programme
 ---
 This is a typical half term of activities at 6th Morpeth Cubs. All programmes are subject to change.
 
-* Cubs Vs Parents Team Challenge Night
+* Cubs vs Parents Team Challenge Night
 * Card Making
 * Remembrance parade
 * First Aid
