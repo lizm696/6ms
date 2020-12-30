@@ -8,7 +8,7 @@ The content is written in markdown files (files with the extension .md). To edit
 
 beavers.md, cubs.md etc - these contain the main content of your page (the first text that will appear).
 \_extras - the files in this folder appear as content in the boxes on each section's page.
-\_full-width-contents - these files hold the content for the shaded area above the boxes (currently showing programme info for each section). 
+\_full-width-contents - these files hold the content for the shaded area above the boxes (currently showing programme info for each section). Front matter of section, name, img. Section is very important as this is what tells the browser to show that information on the relevant page. Name is the subtitle that will appear on that section and img is for for adding an image to that part of the page. \_extras MUST have an image for consistency in the design. \_full-width-contents images are optional.
 
 If no file exists, then no box/shaded area will appear.
 
@@ -31,7 +31,7 @@ img: imagename.jpg
 ```
 
 ## Site setup
-Layout templates - these are files that control the layout of the pages. Editing these can break your site! They are found in the \_layouts folder.
+Layout templates - these are files that control the layout of the pages. Editing these can break your site! They are found in the \_layouts folder. There are two layouts, one for the homepage and one for all other pages.
 
 
 
