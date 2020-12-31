@@ -13,13 +13,11 @@
         <nav id="navbar">   
           <a href="{{site.baseurl}}/index.html"><img src="{{site.baseurl}}/images/6th-morpeth-scouts-logo.png" alt="6th Morpeth Scouts" class="logo"></a>
           <ul>
-            <li><a href="{{site.baseurl}}/join">Join</a></li>
-             <li><a href="{{site.baseurl}}/beavers">Beavers</a></li>
-            <li><a href="{{site.baseurl}}/cubs">Cubs</a></li>
-             <li><a href="{{site.baseurl}}/scouts">Scouts</a></li>
-             <li><a href="{{site.baseurl}}/explorers">Explorers</a></li>
-            <li><a href="{{site.baseurl}}/contact">Contact us</a></li>
-            <li><a href="{{site.baseurl}}/location">Location</a></li>
+            {% for item in site.data.navigation %}
+<li>
+    <a href="{{site.baseurl}}/{{item.path}}">{{ item.title }}</a>
+</li>
+{% endfor %}
           </ul>
         </nav>
 

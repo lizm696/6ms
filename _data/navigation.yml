@@ -8,3 +8,9 @@
   path: /cubs/
 - title: Scouts
   path: /scouts/
+  - title: Explorers
+  path: /explorers/
+- title: Contact us
+  path: /contact/
+- title: Location
+  path: /location/
