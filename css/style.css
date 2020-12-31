@@ -28,7 +28,7 @@ html, body {
     display: inline;
   }
   
-a, a:visted {
+  a, a:visited {
   color: #003982;
 }
   .logo {
