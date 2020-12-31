@@ -1,16 +1,16 @@
 - title: Home
   path: /
 - title: Join
-  path: /join/ 
+  path: /join
 - title: Beavers
-  path: /beavers/
+  path: /beavers
 - title: Cubs
-  path: /cubs/
+  path: /cubs
 - title: Scouts
-  path: /scouts/
+  path: /scouts
 - title: Explorers
-  path: /explorers/
+  path: /explorers
 - title: Contact us
-  path: /contact/
+  path: /contact
 - title: Location
-  path: /location/
+  path: /location

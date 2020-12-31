@@ -6,7 +6,7 @@
             <ul>
               {% for item in site.data.navigation %}
   <li>
-      <a href="{{site.baseurl}}/{{item.path}}">{{ item.title }}</a>
+      <a href="{{site.baseurl}}{{item.path}}">{{ item.title }}</a>
   </li>
   {% endfor %}
             </ul>
