@@ -252,7 +252,12 @@ html, body {
     text-align: center;
   }
 
-  #footer a, #footer a:visited {
+  #footer ul {
+    padding-left: 0;
+  list-style: none;
+  }
+
+  #footer li, #footer a, #footer a:visited {
     color: white;
   }
   
