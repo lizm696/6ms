@@ -112,18 +112,6 @@ a, a:visted {
       width: 100%;
     }
   
-  /* Card style for secondary nav */
- 
-  .card-col {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    margin: .5rem 1rem;
-  }
-
-  .card-col a {
-    text-decoration: none;
-}
 
   .section-link {
     height: 7rem;
@@ -326,10 +314,6 @@ a, a:visted {
     padding: 0 1.2rem;
     flex: 2;
   }
-
-  .card-col {
-    flex: 1;
-}
 
 #extras .column:nth-child(2) {
   border-right: 1px lightgrey solid;
