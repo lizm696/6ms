@@ -265,8 +265,8 @@ html, body {
     color: white;
   }
 
-  #footer img {
-    margin: auto;
+  .footer-img-container {
+    
   }
   
   /* *********** media query for larger screens (laptop/desktop) *********** */
