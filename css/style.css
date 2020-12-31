@@ -254,7 +254,7 @@ html, body {
 
   #footer ul {
     padding-left: 0;
-  list-style: none;
+    list-style-type: none;
   }
 
   #footer li, #footer a, #footer a:visited {
