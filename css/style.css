@@ -373,6 +373,9 @@ html, body {
 margin-left: auto;
   }
 
+  #footer img {
+    display: block;
+  }
 
  }
 
