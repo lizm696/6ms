@@ -17,9 +17,9 @@
 </div>
 
       
-          {% assign sorted-full-width-contents = site.full-width-contents | where: "section", page.title %}
+          {% assign sorted-full-width-contents = site.full-width-contents | where: "section", page.title limit:3 %}
           
-          {% for full-width-content in sorted-full-width-contents limit:3 %}
+          {% for full-width-content in sorted-full-width-contents %}
           
        
           <section id="fullwidth" class="outer">
