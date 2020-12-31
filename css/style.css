@@ -247,7 +247,7 @@ html, body {
       margin-bottom: 4rem;
   }
 
-  #footer p, #footer nav {
+  #footer p {
     line-height: 1.2rem;
     text-align: center;
   }
@@ -255,6 +255,10 @@ html, body {
   #footer ul {
     padding-left: 0;
     list-style-type: none;
+  }
+
+  #footer li {
+    line-height: 1.8rem;
   }
 
   #footer li, #footer a, #footer a:visited {
@@ -331,18 +335,8 @@ html, body {
   border-bottom: none;
 }
 
-#footer .inner {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
+/* *** boxes layout on section pages *** */
 
-.footer-contact {
-margin-left: auto;
-}
-
-/* *** column layout *** */
-@media (min-width:991px) {
   #boxes-wrapper {
     flex-direction: row;
     }
@@ -355,7 +349,19 @@ margin-left: auto;
     display:flex;
     width: 49.5%;
     }
+
+#footer .inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
+
+.footer-contact {
+margin-left: auto;
+}
+
+  }
+
     
      @media (min-width: 1367px) {
      #hero-home {
