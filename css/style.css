@@ -365,13 +365,15 @@ html, body {
     text-align: left;
   }
 
+  #footer p {
+    text-align: right;
+  }
+
 .footer-contact {
 margin-left: auto;
   }
 
-  .footer-contact p {
-    text-align: right;
-  }
+
  }
 
     
