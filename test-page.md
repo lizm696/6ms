@@ -1,5 +1,4 @@
 ---
-title: Test page
 ---
 
 This is a test page in markdown
