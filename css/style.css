@@ -213,11 +213,14 @@ a, a:visted {
     flex-direction: column;
     justify-content: space-between;
   }
+
+  .box {
+    margin-bottom: 1rem;
+  }
   
   .box a, .box a:visited {
     color: white;
   }
-
 
   .box-img-wrap {
     /*flex-grow: 0;*/
