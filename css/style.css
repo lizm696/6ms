@@ -359,13 +359,16 @@ html, body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
+  }
+
+  #footer nav {
+    text-align: left;
+  }
 
 .footer-contact {
 margin-left: auto;
-}
-
   }
+ }
 
     
      @media (min-width: 1367px) {
