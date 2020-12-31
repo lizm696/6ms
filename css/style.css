@@ -266,9 +266,6 @@ html, body {
     color: white;
   }
 
-  .footer-img-container {
-    
-  }
   
   /* *********** media query for larger screens (laptop/desktop) *********** */
   @media (min-width: 991px) {
@@ -375,12 +372,12 @@ margin-left: auto;
 
   #footer img {
     display: block;
-    margin-top: 1rem;
+    margin-top: 3rem;
+    margin-left: auto;
   }
 
  }
 
-    
      @media (min-width: 1367px) {
      #hero-home {
        min-height: 55vh;
