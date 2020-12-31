@@ -1,0 +1,10 @@
+- title: Home
+  path: /
+- title: Join
+  path: /join/ 
+- title: Beavers
+  path: /beavers/
+- title: Cubs
+  path: /cubs/
+- title: Scouts
+  path: /scouts/
