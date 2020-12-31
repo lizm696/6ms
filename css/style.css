@@ -158,11 +158,15 @@ a, a:visted {
     margin-top: .8rem;
   }
 
-  #sections {
+  #section-nav {
       color: #707070;
       margin: 0;
       padding: 0;
       text-align: center;
+  }
+
+  #section-nav a {
+    text-decoration: none;
   }
   
   #fullwidth {
