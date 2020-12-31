@@ -91,7 +91,7 @@ html, body {
       text-align: center;
       }
 
-    .hero-button {
+    a.hero-button {
         background-color: rgba(0,0,0,0.7);
         border-radius: 1px;
         border:1px solid #fff;
