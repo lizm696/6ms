@@ -367,7 +367,10 @@ html, body {
 
 .footer-contact {
 margin-left: auto;
-text-align: right;
+  }
+
+  .footer-contact p {
+    text-align: right;
   }
  }
 
