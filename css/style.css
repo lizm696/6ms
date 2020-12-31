@@ -350,10 +350,6 @@ margin-left: auto;
     display:flex;
     width: 49.5%;
     }
-
-    #extras img, #boxes-section img {
-      min-height:200px;
-    }
 }
     
      @media (min-width: 1367px) {
