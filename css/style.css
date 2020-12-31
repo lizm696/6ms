@@ -266,7 +266,7 @@ html, body {
   }
 
   #footer img {
-    text-align: center;
+    margin: auto;
   }
   
   /* *********** media query for larger screens (laptop/desktop) *********** */
