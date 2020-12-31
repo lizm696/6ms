@@ -3,11 +3,14 @@
     <div class="inner">
         <div>
           <nav>
-          <p><a href="">Nav link</a></p>
-          <p><a href="">Nav link</a></p>
-          <p><a href="">Nav link</a></p>
-          <p><a href="">Nav link</a></p>
-          <p><a href="">Nav link</a></p>
+            <ul>
+              {% for item in site.data.navigation %}
+  <li>
+      <a href="{{site.baseurl}}/{{item.path}}">{{ item.title }}</a>
+  </li>
+  {% endfor %}
+            </ul>
+          
           </nav>
         </div>
       
