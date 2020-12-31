@@ -1,5 +1,4 @@
 ---
-layout: section-page
 title: Test page
 ---
 
