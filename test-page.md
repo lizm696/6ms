@@ -1,7 +1,10 @@
 ---
+title: Test page
 ---
 
 This is a test page in markdown
 
-{% test-include.html %}
+{% include test-include.html %}
+
+{% include footer.html %}
 
