@@ -264,6 +264,10 @@ html, body {
   #footer li, #footer a, #footer a:visited {
     color: white;
   }
+
+  #footer img {
+    text-align: center;
+  }
   
   /* *********** media query for larger screens (laptop/desktop) *********** */
   @media (min-width: 991px) {
