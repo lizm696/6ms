@@ -25,6 +25,7 @@ html, body {
      -webkit-box-shadow: none;
      -moz-box-shadow: none;
      -ms-box-shadow: none;
+    display: inline;
   }
   
 a, a:visted {
@@ -39,9 +40,7 @@ a, a:visted {
 } 
   
   #navbar {
-    /*background:  #F5F5F5;*/
     display: flex;
-    /*padding: 0 .5rem;*/
     flex-direction: column;
     align-items: center;
     
@@ -64,7 +63,6 @@ a, a:visted {
     font-weight: 400;
     text-decoration: none;
     text-align: center; 
-    /*padding: 10px;*/
     border-top: 1px solid rgba(255,255,255,0.3); 
     border-bottom: 1px solid rgba(0,0,0,0.1); 
   }
@@ -84,19 +82,14 @@ a, a:visted {
 
     #hero-home {
       background: url('../images/scouts-in-canoes.jpg') center center/cover no-repeat;
-      /*height: 70vh;*/
       justify-content: left;
       color: white;
     }
   
-
     #hero-home .inner {
-      /*margin: 1.5rem; */
-      /*width: 100%;*/
       background: rgba(0,0,0,0.4);
       text-align: center;
       }
-
 
     .hero-button {
         background-color: rgba(0,0,0,0.7);
@@ -127,6 +120,10 @@ a, a:visted {
     flex-basis: 100%;
     margin: .5rem 1rem;
   }
+
+  .card-col a {
+    text-decoration: none;
+}
 
   .section-link {
     height: 7rem;
@@ -223,7 +220,6 @@ a, a:visted {
   }
 
   .box-img-wrap {
-    /*flex-grow: 0;*/
       flex-shrink: 1;
       flex-basis: 45%;
     }
@@ -272,7 +268,8 @@ a, a:visted {
   @media (min-width: 991px) {
       #navbar {
           flex-direction: row;
-          justify-content: space-around;
+          justify-content: space-between;
+          padding: .5rem 2.6rem;
       }
 
       .logo {
@@ -324,7 +321,6 @@ a, a:visted {
     #volunteering h2 {
       margin-bottom: 1.8rem;
     }
-  
 
   .column {
     padding: 0 1.2rem;
@@ -352,8 +348,8 @@ a, a:visted {
 margin-left: auto;
 }
 
-/* *** new column layout *** */
-@media (min-width:991px) /*previously767*/{
+/* *** column layout *** */
+@media (min-width:991px) {
   #boxes-wrapper {
     flex-direction: row;
     }
@@ -364,10 +360,22 @@ margin-left: auto;
     
     .box {
     display:flex;
-    width: 49.8%;
+    width: 49.5%;
     }
 
     #extras img, #boxes-section img {
       min-height:200px;
     }
 }
+    
+     @media (min-width: 1367px) {
+     #hero-home {
+       min-height: 55vh;
+       display: flex;
+       }
+       
+         #hero-home .inner {
+           height: 100%;
+           align-self: center;
+       }
+    }

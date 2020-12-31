@@ -1,7 +1,7 @@
 ---
 name: Beavers Promise
 section: Beavers
-img: canoes.jpg
+img: male-leader-supporting-beavers.jpg
 ---
 *"I promise to do my best,
 to be kind and helpful,

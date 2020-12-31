@@ -3,3 +3,4 @@ exclude: ["README.md"]
 collections:
   extras:
   full-width-contents:
+  homepage-features:
