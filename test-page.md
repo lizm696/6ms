@@ -2,7 +2,7 @@
 title: Test page
 ---
 
-This is a test page in markdown
+This is a test page with no set layout
 
 
 
