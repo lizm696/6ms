@@ -1,5 +1,6 @@
 ---
 layout: default
+title: About us
 ---
 
 At 6th Morpeth Scouts we offer a range of activities, challenges and experiences to engage and support young people in their personal development, empowering them to make a positive contribution to society.
