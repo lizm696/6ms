@@ -1,8 +1,7 @@
 # config.yml
-
 backend:
-  name: github
-  repo: lizm696/6thmorpethscouts
+  name: git-gateway
+  branch: github-pages # Branch to update (optional; defaults to master)
 media_folder: 'images'
 collections:
 - name: 'pages'
@@ -10,10 +9,66 @@ collections:
   editor:
     preview: false
   files:
-    - label: 'About Page'
-      name: 'about'
-      file: 'about.md'
+    - label: 'Beavers'
+      name: 'beavers'
+      file: 'beavers.md'
       fields:
         - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
         - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
         - { label: 'Body', name: 'body', widget: 'markdown' }
+    - label: 'Cubs'
+          name: 'cubs'
+          file: 'cubs.md'
+          fields:
+            - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+            - { label: 'Body', name: 'body', widget: 'markdown' }
+    - label: 'Scouts'
+      name: 'scouts'
+      file: 'scouts.md'
+      fields:
+        - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+        - { label: 'Body', name: 'body', widget: 'markdown' }
+    - label: 'Explorers'
+          name: 'explorers'
+          file: 'explorers.md'
+          fields:
+            - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+            - { label: 'Body', name: 'body', widget: 'markdown' }    
+    - label: 'Join'
+      name: 'join'
+      file: 'join.md'
+      fields:
+        - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+        - { label: 'Body', name: 'body', widget: 'markdown' }
+    - label: 'Location'
+          name: 'location'
+          file: 'location.md'
+          fields:
+            - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+            - { label: 'Body', name: 'body', widget: 'markdown' }
+    - label: 'Contact us'
+      name: 'contact'
+      file: 'contact.md'
+      fields:
+        - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+        - { label: 'Body', name: 'body', widget: 'markdown' }
+    - label: 'Privacy Notice'
+          name: 'privacy'
+          file: 'privacy.md'
+          fields:
+            - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+            - { label: 'Body', name: 'body', widget: 'markdown' }
+    - label: 'Home'
+          name: 'home'
+          file: 'index.md'
+          fields:
+            - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+            - { label: 'Body', name: 'body', widget: 'markdown' }
