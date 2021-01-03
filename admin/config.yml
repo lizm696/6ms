@@ -104,25 +104,8 @@ collections:
   create: true
   editor:
     preview: false
-  files:  
-    - label: 'feature1'
-      name: 'feature1'
-      file: 'feature1.md'
-      fields:
-        - { label: 'Title', name: 'title', widget: 'string' }
-        - { label: 'Text', name: 'text', widget: 'markdown' }   
-        - { label: 'Image', name: 'image', widget: 'image' }
-    - label: 'feature2'
-      name: 'feature2'
-      file: 'feature2.md'
-      fields:
-        - { label: 'Title', name: 'title', widget: 'string' }
-        - { label: 'Text', name: 'text', widget: 'markdown' }   
-        - { label: 'Image', name: 'image', widget: 'image' }
-    - label: 'feature3'
-      name: 'feature3'
-      file: 'feature3.md'
-      fields:
+  fields:  
+        - { label: 'Feature position', name: 'name', widget: 'string' }
         - { label: 'Title', name: 'title', widget: 'string' }
         - { label: 'Text', name: 'text', widget: 'markdown' }   
         - { label: 'Image', name: 'image', widget: 'image' }
