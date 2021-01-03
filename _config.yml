@@ -1,4 +1,5 @@
 baseurl: /6thmorpethscouts
+url: https://lizm696.github.io
 exclude: ["README.md"]
 permalink: pretty
 collections:
