@@ -98,3 +98,13 @@ collections:
             - label: 'Image'
               name: 'image'
               widget: 'image'
+- name: 'homepage-features'
+  label: 'Homepage features'
+  folder: '_homepage-features/'
+  create: true
+  editor:
+    preview: false
+  fields:
+    - { label: 'Title', name: 'name', widget: 'string' }
+    - { label: 'Body', name: 'body', widget: 'markdown' }   
+    - { label: 'Image', name: 'image', widget: 'image' }
