@@ -65,10 +65,15 @@ collections:
         - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
         - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
         - { label: 'Body', name: 'body', widget: 'markdown' }
-    - label: 'Home'
+    - label: 'Home page'
       name: 'home'
-      file: 'index.md'
+      file: '_data/home.yml'
       fields:
-        - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
-        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
-        - { label: 'Body', name: 'body', widget: 'markdown' }
+        - label: 'Banner'
+          name: 'banner'
+          widget: 'object'
+          fields:
+            - label: 'Title'
+              name: 'title'
+              widget: 'string'
+       
