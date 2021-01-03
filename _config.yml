@@ -1,4 +1,4 @@
-baseurl: /6thmorpethscouts
+baseurl: 
 exclude: ["README.md"]
 collections:
   extras:
