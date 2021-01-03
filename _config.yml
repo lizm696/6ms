@@ -4,3 +4,4 @@ collections:
   extras:
   full-width-contents:
   homepage-features:
+    output: true
