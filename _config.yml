@@ -1,5 +1,6 @@
-baseurl: 
+baseurl: /6thmorpethscouts
 exclude: ["README.md"]
+permalink: pretty
 collections:
   extras:
   full-width-contents:
