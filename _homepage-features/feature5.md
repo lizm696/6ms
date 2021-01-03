@@ -1,4 +1,5 @@
 ---
+name: feature5
 title: Feature 5 test
 img: explorer-campfire-3.jpg
 ---
