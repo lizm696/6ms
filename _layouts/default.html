@@ -19,14 +19,14 @@
           <!-- About us section -->
     <section id="fullwidth" class="outer">
         <div class="inner">
-          <h2>{{ page.title }}</h2>
+          <h2>{{site.data.home.intro.title}}</h2>
           <div class="flexdiv">
 <div class="column">
-    {{ content }}
+    {{site.data.home.intro.text}}
      
     </div>
      <div class="column">
-       <img src="{{site.baseurl}}/images/scouts-in-canoes.jpg" alt="" class="fluid">
+       <img src="{{site.data.home.intro.image}}" alt="" class="fluid">
       </div>
     </div><!-- flexdiv -->
     </div><!-- inner -->
