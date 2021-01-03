@@ -107,5 +107,5 @@ collections:
   fields:  
         - { label: 'Feature position', name: 'name', widget: 'string' }
         - { label: 'Title', name: 'title', widget: 'string' }
-        - { label: 'Text', name: 'text', widget: 'markdown' }   
+        - {label: 'Body', name: 'body', widget: 'markdown' } 
         - { label: 'Image', name: 'image', widget: 'image' }
