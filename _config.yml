@@ -1,4 +1,3 @@
-baseurl: /6thmorpethscouts
 exclude: ["README.md"]
 permalink: pretty
 collections:
