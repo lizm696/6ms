@@ -1,4 +1,5 @@
 ---
+name: feature1
 title: Feature 1 title
 img: canoes.jpg
 ---
