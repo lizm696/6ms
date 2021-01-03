@@ -17,12 +17,12 @@ collections:
         - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
         - { label: 'Body', name: 'body', widget: 'markdown' }
     - label: 'Cubs'
-          name: 'cubs'
-          file: 'cubs.md'
-          fields:
-            - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
-            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
-            - { label: 'Body', name: 'body', widget: 'markdown' }
+      name: 'cubs'
+      file: 'cubs.md'
+      fields:
+        - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+        - { label: 'Body', name: 'body', widget: 'markdown' }
     - label: 'Scouts'
       name: 'scouts'
       file: 'scouts.md'
@@ -31,12 +31,12 @@ collections:
         - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
         - { label: 'Body', name: 'body', widget: 'markdown' }
     - label: 'Explorers'
-          name: 'explorers'
-          file: 'explorers.md'
-          fields:
-            - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
-            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
-            - { label: 'Body', name: 'body', widget: 'markdown' }    
+      name: 'explorers'
+      file: 'explorers.md'
+      fields:
+        - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+        - { label: 'Body', name: 'body', widget: 'markdown' }    
     - label: 'Join'
       name: 'join'
       file: 'join.md'
@@ -45,12 +45,12 @@ collections:
         - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
         - { label: 'Body', name: 'body', widget: 'markdown' }
     - label: 'Location'
-          name: 'location'
-          file: 'location.md'
-          fields:
-            - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
-            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
-            - { label: 'Body', name: 'body', widget: 'markdown' }
+      name: 'location'
+      file: 'location.md'
+      fields:
+        - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+        - { label: 'Body', name: 'body', widget: 'markdown' }
     - label: 'Contact us'
       name: 'contact'
       file: 'contact.md'
@@ -59,16 +59,16 @@ collections:
         - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
         - { label: 'Body', name: 'body', widget: 'markdown' }
     - label: 'Privacy Notice'
-          name: 'privacy'
-          file: 'privacy.md'
-          fields:
-            - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
-            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
-            - { label: 'Body', name: 'body', widget: 'markdown' }
+      name: 'privacy'
+      file: 'privacy.md'
+      fields:
+        - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+        - { label: 'Body', name: 'body', widget: 'markdown' }
     - label: 'Home'
-          name: 'home'
-          file: 'index.md'
-          fields:
-            - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
-            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
-            - { label: 'Body', name: 'body', widget: 'markdown' }
+      name: 'home'
+      file: 'index.md'
+      fields:
+        - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+        - { label: 'Body', name: 'body', widget: 'markdown' }
