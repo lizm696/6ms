@@ -119,6 +119,7 @@ collections:
   create: true
   media_folder: '/images'
   public_folder: 'images'
+  extension: html
   editor:
     preview: false
   fields:  
