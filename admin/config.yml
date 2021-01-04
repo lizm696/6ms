@@ -47,16 +47,16 @@ collections:
       name: 'join'
       file: 'join.md'
       fields:
-        - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
-        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+        - { label: 'Title', name: 'title', widget: 'hidden' }
+        - { label: 'Layout', name: 'layout', widget: 'hidden' }
         - { label: 'Intro', name: 'body', widget: 'markdown' }
         - { label: 'Secondary content', name: 'second-section', widget: 'markdown' }
     - label: 'Beavers'
       name: 'beavers'
       file: 'beavers.md'
       fields:
-        - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
-        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+        - { label: 'Title', name: 'title', widget: 'hidden' }
+        - { label: 'Layout', name: 'layout', widget: 'hidden' }
         - { label: 'Body', name: 'body', widget: 'markdown' }
     - label: 'Cubs'
       name: 'cubs'
@@ -113,3 +113,18 @@ collections:
         - { label: 'Title', name: 'title', widget: 'string' }
         - {label: 'Body', name: 'body', widget: 'markdown' } 
         - { label: 'Image', name: 'image', widget: 'image' }
+- name: 'section-pages'
+  label: 'Section pages'
+  folder: '_section-pages/'
+  create: true
+  media_folder: '/images'
+  public_folder: 'images'
+  editor:
+    preview: false
+  fields:  
+        - { label: 'Title', name: 'title', widget: 'hidden' }
+        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'section-page' }
+        - {label: 'Intro', name: 'body', widget: 'markdown' } 
+        - { label: 'Intro section image', name: 'intro-image', widget: 'image' }
+        - {label: 'secondary section', name: 'section-text', widget: 'markdown' } 
+        - { label: 'secondary image', name: 'second-image', widget: 'image' }
