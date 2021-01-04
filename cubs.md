@@ -1,13 +1,5 @@
 ---
-layout: section-page
 title: Cubs
+layout: section-page
 ---
-
-
-
-This page is written as a Markdown file. Markdown files have the extension .md
-
-# What is Markdown?
-Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like # or *. 
-
-[Read more about using markdown on Github](https://guides.github.com/features/mastering-markdown)
+Cubs get opportunities to learn and take part in activities like swimming, computing, collecting, sports and exploring. All of these activities can earn them badges. Cubs also take part in days out and get the opportunity to go camping as well as lots of other outdoor activities.
