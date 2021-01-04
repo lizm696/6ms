@@ -17,6 +17,7 @@
 </div>
 
       <!--testing section as data field-->
+          {% if pages.second-section %}
           <section id="fullwidth" class="outer">
                 <div class="inner">
           <div class="flexdiv">
@@ -28,7 +29,8 @@
                    </div><!-- end flexdiv -->
         </div><!-- end inner -->
         </section>
-
+  {% endif %}
+        
           {% assign sorted-full-width-contents = site.full-width-contents | where: "section", page.title %}
           
           {% for full-width-content in sorted-full-width-contents %}
