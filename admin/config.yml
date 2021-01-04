@@ -78,16 +78,16 @@ collections:
         - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
         - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
         - { label: 'Body', name: 'body', widget: 'markdown' }    
-    - label: 'Location'
-      name: 'location'
-      file: 'location.md'
+    - label: 'Contact us'
+      name: 'contact'
+      file: 'contact.md'
       fields:
         - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
         - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
         - { label: 'Body', name: 'body', widget: 'markdown' }
-    - label: 'Contact us'
-      name: 'contact'
-      file: 'contact.md'
+    - label: 'Location'
+      name: 'location'
+      file: 'location.md'
       fields:
         - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
         - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
