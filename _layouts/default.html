@@ -19,14 +19,14 @@
           <!-- About us section -->
     <section id="fullwidth" class="outer">
         <div class="inner">
-          <h2>{{site.data.home.intro.title}}</h2>
+          <h2>{{ site.data.home.intro.title }}</h2>
           <div class="flexdiv">
 <div class="column">
-    {{site.data.home.intro.text}}
+    {{ site.data.home.intro.text | markdownify }}
      
     </div>
      <div class="column">
-       <img src="{{site.data.home.intro.image}}" alt="" class="fluid">
+       <img src="{{ site.data.home.intro.image }}" alt="" class="fluid">
       </div>
     </div><!-- flexdiv -->
     </div><!-- inner -->
@@ -42,7 +42,7 @@
            {% for homepage-feature in site.homepage-features limit:3 %}
           <div class="column">  
           <h2>{{ homepage-feature.title }}</h2>
-             <img src="{{homepage-feature.image}}" alt="" class="fluid">
+             <img src="{{ homepage-feature.image }}" alt="" class="fluid">
       
       {{ homepage-feature.content | markdownify }}
          
