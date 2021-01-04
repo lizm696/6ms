@@ -116,7 +116,6 @@ collections:
 - name: 'section-pages'
   label: 'Section pages'
   folder: '_section-pages/'
-  output: true
   create: true
   media_folder: '/images'
   public_folder: 'images'
