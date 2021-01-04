@@ -1,5 +1,5 @@
 exclude: ["README.md"]
-permalink: pretty
+permalink: /:title
 collections:
   extras:
   full-width-contents:
