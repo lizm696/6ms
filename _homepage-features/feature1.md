@@ -1,6 +1,6 @@
 ---
 name: feature1
-title: Feature 1 title
+title: 1st feature
 img: canoes.jpg
 image: /6thmorpethscouts/images/diverse-cub-group.jpg
 ---
