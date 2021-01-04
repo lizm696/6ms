@@ -122,7 +122,7 @@ collections:
   editor:
     preview: false
   fields:  
-        - { label: 'Title', name: 'title', widget: 'hidden' }
+        - { label: 'Title', name: 'title', widget: 'string' }
         - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'section-page' }
         - {label: 'Intro', name: 'body', widget: 'markdown' } 
         - { label: 'Intro section image', name: 'intro-image', widget: 'image' }
