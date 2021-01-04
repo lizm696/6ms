@@ -16,7 +16,21 @@
 
 </div>
 
+      <!--testing section as data field-->
+          <section id="fullwidth" class="outer">
+                <div class="inner">
+                        
+                        <h2>{{ second-section.label }}</h2>
+          <div class="flexdiv">
+      <div class="column">
       
+      {{ second-section. | markdownify }}
+      
+      </div><!-- end column -->
+                   </div><!-- end flexdiv -->
+        </div><!-- end inner -->
+        </section>
+
           {% assign sorted-full-width-contents = site.full-width-contents | where: "section", page.title %}
           
           {% for full-width-content in sorted-full-width-contents %}
