@@ -29,9 +29,9 @@ title: Home
            {% for homepage-feature in site.homepage-features limit:3 %}
           <div class="column">  
           <h2>{{ homepage-feature.title }}</h2>
-             <img src="{{site.baseurl}}/images/{{homepage-feature.img}}" alt="" class="fluid">
+             <img src="{{site.baseurl}}/images/{{homepage-feature.image}}" alt="" class="fluid">
       
-      {{ homepage-feature.content | markdownify }}
+      {{ homepage-feature.body | markdownify }}
          
           
       </div><!-- end column -->
