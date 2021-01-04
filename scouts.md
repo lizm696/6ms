@@ -1,11 +1,7 @@
 ---
-layout: section-page
 title: Scouts
+layout: section-page
 ---
+Scouts are the third section of the Scouting movement. There are over 28 million members worldwide, and in the UK alone there are over 499,000 boys and girls involved in Scouting. 
 
-This is the Scouts page (content from markdown file).
-
-# What is Markdown?
-Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like # or *. 
-
-[Read more about using markdown on Github](https://guides.github.com/features/mastering-markdown)
+Scouts offer a wide range of interests from Information Technology, street sports, camping, entertainment, quad biking, yachting and conservation. As well as the outdoor activities, Scouts participate in a balanced programme that helps them find out about the world they live in, the importance of keeping fit, and knowing their abilities.
