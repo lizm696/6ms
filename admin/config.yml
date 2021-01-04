@@ -111,7 +111,7 @@ collections:
   fields:  
         - { label: 'Feature position', name: 'name', widget: 'string' }
         - { label: 'Title', name: 'title', widget: 'string' }
-        - {label: 'Body', name: 'body', widget: 'markdown' } 
+        - { label: 'Body', name: 'body', widget: 'markdown' } 
         - { label: 'Image', name: 'image', widget: 'image' }
 - name: 'section-pages'
   label: 'Section pages'
@@ -124,7 +124,7 @@ collections:
   fields:  
         - { label: 'Title', name: 'title', widget: 'string' }
         - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'section-page' }
-        - {label: 'Intro', name: 'body', widget: 'markdown' } 
+        - { label: 'Intro', name: 'body', widget: 'markdown' } 
         - { label: 'Intro section image', name: 'intro-image', widget: 'image' }
-        - {label: 'secondary section', name: 'section-text', widget: 'markdown' } 
+        - { label: 'secondary section', name: 'second-text', widget: 'markdown' } 
         - { label: 'secondary image', name: 'second-image', widget: 'image' }
