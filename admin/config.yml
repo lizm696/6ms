@@ -49,7 +49,8 @@ collections:
       fields:
         - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
         - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
-        - { label: 'Body', name: 'body', widget: 'markdown' }
+        - { label: 'Intro', name: 'body', widget: 'markdown' }
+        - { label: 'Secondary content', name: 'second-section', widget: 'markdown' }
     - label: 'Beavers'
       name: 'beavers'
       file: 'beavers.md'
