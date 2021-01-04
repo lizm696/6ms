@@ -104,6 +104,7 @@ collections:
   folder: '_homepage-features/'
   create: true
   media_folder: '/images'
+  public_folder: 'images'
   editor:
     preview: false
   fields:  
