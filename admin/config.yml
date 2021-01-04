@@ -10,62 +10,6 @@ collections:
   editor:
     preview: false
   files:
-    - label: 'Beavers'
-      name: 'beavers'
-      file: 'beavers.md'
-      fields:
-        - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
-        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
-        - { label: 'Body', name: 'body', widget: 'markdown' }
-    - label: 'Cubs'
-      name: 'cubs'
-      file: 'cubs.md'
-      fields:
-        - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
-        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
-        - { label: 'Body', name: 'body', widget: 'markdown' }
-    - label: 'Scouts'
-      name: 'scouts'
-      file: 'scouts.md'
-      fields:
-        - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
-        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
-        - { label: 'Body', name: 'body', widget: 'markdown' }
-    - label: 'Explorers'
-      name: 'explorers'
-      file: 'explorers.md'
-      fields:
-        - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
-        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
-        - { label: 'Body', name: 'body', widget: 'markdown' }    
-    - label: 'Join'
-      name: 'join'
-      file: 'join.md'
-      fields:
-        - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
-        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
-        - { label: 'Body', name: 'body', widget: 'markdown' }
-    - label: 'Location'
-      name: 'location'
-      file: 'location.md'
-      fields:
-        - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
-        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
-        - { label: 'Body', name: 'body', widget: 'markdown' }
-    - label: 'Contact us'
-      name: 'contact'
-      file: 'contact.md'
-      fields:
-        - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
-        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
-        - { label: 'Body', name: 'body', widget: 'markdown' }
-    - label: 'Privacy Notice'
-      name: 'privacy'
-      file: 'privacy.md'
-      fields:
-        - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
-        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
-        - { label: 'Body', name: 'body', widget: 'markdown' }
     - label: 'Home page'
       name: 'home'
       file: '_data/home.yml'
@@ -99,6 +43,62 @@ collections:
             - label: 'Image'
               name: 'image'
               widget: 'image'
+    - label: 'Join'
+      name: 'join'
+      file: 'join.md'
+      fields:
+        - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+        - { label: 'Body', name: 'body', widget: 'markdown' }
+    - label: 'Beavers'
+      name: 'beavers'
+      file: 'beavers.md'
+      fields:
+        - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+        - { label: 'Body', name: 'body', widget: 'markdown' }
+    - label: 'Cubs'
+      name: 'cubs'
+      file: 'cubs.md'
+      fields:
+        - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+        - { label: 'Body', name: 'body', widget: 'markdown' }
+    - label: 'Scouts'
+      name: 'scouts'
+      file: 'scouts.md'
+      fields:
+        - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+        - { label: 'Body', name: 'body', widget: 'markdown' }
+    - label: 'Explorers'
+      name: 'explorers'
+      file: 'explorers.md'
+      fields:
+        - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+        - { label: 'Body', name: 'body', widget: 'markdown' }    
+    - label: 'Location'
+      name: 'location'
+      file: 'location.md'
+      fields:
+        - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+        - { label: 'Body', name: 'body', widget: 'markdown' }
+    - label: 'Contact us'
+      name: 'contact'
+      file: 'contact.md'
+      fields:
+        - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+        - { label: 'Body', name: 'body', widget: 'markdown' }
+    - label: 'Privacy Notice'
+      name: 'privacy'
+      file: 'privacy.md'
+      fields:
+        - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+        - { label: 'Body', name: 'body', widget: 'markdown' }
 - name: 'homepage-features'
   label: 'Homepage features'
   folder: '_homepage-features/'
