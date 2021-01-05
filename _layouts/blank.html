@@ -26,15 +26,13 @@
            
            
        
-
+           <p>abc</p>
        
            
         <ul>
 {% for org_hash in site.data.orgs %}
              
-           {% if org_hash["username"] == "org1" %}
-           <p>123</p>
-           {% endif %}
+         
            
 {% assign org = org_hash[1] %}
   <li>
@@ -43,6 +41,10 @@
     </a>
     ({{ org.members | size }} members)
   </li>
+  
+        {% if org_hash["username"] contains "1" %}
+       <li>123</li>
+           {% endif %}
 {% endfor %}
 </ul>
           </div>
