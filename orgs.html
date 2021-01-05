@@ -3,7 +3,7 @@
 {% for org_hash in site.data.orgs %}
 {% assign org = org_hash[1] %}
   <li>
-    <a href="https://example.com/{{ org.name }}">
+    <a href="https://example.com/{{ org.username }}">
       {{ org.name }}
     </a>
     ({{ org.members | size }} members)
