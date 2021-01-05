@@ -2,7 +2,11 @@ title: Cubs yml title
 layout: section-page
 intro: This is the Cubs intro section.
 second-section: This is the second section on the cubs page, for things like programme info.
-body: Cubs intro
-intro-image: /images/beaver-running.jpg
+body: >-
+  ![](/images/canoes.jpg)
+
+
+  Cubs get opportunities to learn and take part in activities like swimming, computing, collecting, sports and exploring. All of these activities can earn them badges. Cubs also take part in days out and get the opportunity to go camping as well as lots of other outdoor activities. Image inserted from Netlify text editor.
+intro-image: ""
 second-text: Second section, e.g. programme info
-second-image: /images/cubs-in-helmets-outdoors.jpg
+second-image: ""
