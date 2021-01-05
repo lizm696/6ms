@@ -10,39 +10,20 @@
 <main>
         <div class="inner">
         <!--main content to go here-->
-       
-{{ content }}
+        {% if page.title == "Beavers 2" %}
+               {{ site.data.beavers2.intro }}
+                {% elsif page.title == "Cubs 2" %}
+               {{ site.data.cubs2.intro }}
+               {% endif %}
 
 
 </div>
-        <!--testing yml pull -->
-       <div style="background: yellow; padding: 20px;">test: 
-               {% if page.title == "Beavers 2" %}
-               {{ site.data.beavers2.title }}
-                {% elsif page.title == "Cubs 2" %}
-               {{ site.data.cubs2.title }}
-               {% endif %}
-        <div>
-        <!-- end yml test -->
+       
 
-      <!--testing section as data field-->
-          {% if pages.second-section %}
-          <section id="fullwidth" class="outer">
-                <div class="inner">
-          <div class="flexdiv">
-      <div class="column">
-      
-      {{ pages.second-section | markdownify }}
-      
-      </div><!-- end column -->
-                   </div><!-- end flexdiv -->
-        </div><!-- end inner -->
-        </section>
-  {% endif %}
         
-          {% assign sorted-full-width-contents = site.full-width-contents | where: "section", page.title %}
+          {% assign sorted-data = site.data | where: "name", page.title %}
           
-          {% for full-width-content in sorted-full-width-contents %}
+          {% for site.data in sorted-data %}
           
        
           <section id="fullwidth" class="outer">
@@ -52,7 +33,7 @@
           <div class="flexdiv">
       <div class="column">
       
-      {{ full-width-content.content | markdownify }}
+      {{ data.second-text | markdownify }}
       
       </div><!-- end column -->
       
