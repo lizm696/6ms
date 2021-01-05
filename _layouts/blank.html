@@ -18,6 +18,16 @@
     <section id="fullwidth" class="outer">
         <div class="inner">
            <p>blank layout</p>
+           
+           {% assign orgs_sorted = site.data.orgs | where "username", "org1" %}
+{% for org in orgs_sorted %}
+  <p><strong>{{ org.name }}</strong> - {{ org.members | size }} members</p>
+{% endfor %}
+           
+           
+       
+
+           
         <ul>
 {% for org_hash in site.data.orgs %}
 {% assign org = org_hash[1] %}
