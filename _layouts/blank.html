@@ -44,11 +44,11 @@
   
 {% endfor %}
 </ul>
-           {% for org_hash in site.data.orgs %}
-           {% if org_hash.username contains "1" %}
+           {% for site.data.orgs[username] %}
+     
          
            {{ org.name }}<b>***</b>
-           {% endif %}
+   
            {% endfor %}
           </div>
     </section>
