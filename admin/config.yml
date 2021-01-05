@@ -66,7 +66,7 @@ collections:
           required: false 
     - label: 'Cubs yml'
       name: 'cubs2'
-      file: '_data/cubss2.yml'
+      file: '_data/cubs2.yml'
       fields:
         - label: 'Title'
           name: 'title'
