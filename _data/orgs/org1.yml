@@ -1,7 +1,11 @@
+username: org1
 name: org no 1
-content:
+members:
   - name: John Smith
     text: Info about John Smith
 
   - name: Parker Moore
-    text: Infor about Parker Moore
+    text: Info about Parker Moore
+    
+  - name: Tom Jones
+    text: Info about Tom Jones
