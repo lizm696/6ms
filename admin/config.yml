@@ -58,7 +58,7 @@ collections:
           widget: 'image'
           required: false
         - label: 'secondary section'
-          name: 'second-text'
+          name: 'second-section'
           required: false
           widget: 'markdown'
         - label: 'secondary image'
@@ -80,7 +80,7 @@ collections:
           widget: 'image'
           required: false
         - label: 'secondary section'
-          name: 'second-text'
+          name: 'second-section'
           widget: 'markdown'
           required: false
         - label: 'secondary image'
