@@ -25,7 +25,9 @@
           <section id="fullwidth" class="outer">
                 <div class="inner">
 
-       <!-- h2 did go here, outside of flexdiv -->
+                        {% if page.title == "Beavers 2" %}
+                        <h2>{{ site.data.beavers2.second-heading }} </h2>
+                        {% endif %}
                         
           <div class="flexdiv">
       <div class="column">
