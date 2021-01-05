@@ -1,1 +1,11 @@
-
+    - { label: 'Title', name: 'title', widget: 'string' }
+        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'section-page' }
+        - { label: 'Intro', name: 'intro', widget: 'markdown' } 
+        - { label: 'Intro section image', name: 'intro-image', widget: 'image', required: false }
+        - { label: 'secondary section', name: 'second-section', widget: 'markdown' } 
+        - { label: 'secondary image', name: 'second-image', widget: 'image', required: false }
+        
+  title: Beavers yml title
+  layout: section-page
+  intro: This is the intro section.
+  second-section: This is the second section on the page, for things like programme info.
