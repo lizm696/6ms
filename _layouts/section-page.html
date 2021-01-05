@@ -16,8 +16,12 @@
 
 </div>
         <!--testing yml pull -->
-       <div style="background: yellow:">test: 
+       <div style="background: yellow; padding: 20px;">test: 
+               {% if page.title == "Beavers2" %}
                {{ site.data.beavers2.title }}
+                {% elsif page.title == "Cubs2" %}
+               {{ site.data.cubs2.title }}
+               {% endif %}
         <div>
         <!-- end yml test -->
 
