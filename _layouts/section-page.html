@@ -10,6 +10,7 @@
 <main>
         <div class="inner">
         <!--main content to go here-->
+                <p><strong>testing in progress</strong></p>
         {% if page.title == "Beavers 2" %}
                {{ site.data.beavers2.body | markdownify }}
                 <img src="{{site.data.beavers2.intro-image}}">
@@ -30,23 +31,23 @@
       <div class="column">
       
       {% if page.title == "Beavers 2" %}
-               {{ site.data.beavers2.second-section }}
+               {{ site.data.beavers2.second-section | markdownify }}
                 {% elsif page.title == "Cubs 2" %}
-               {{ site.data.cubs2.second-section }}
+               {{ site.data.cubs2.second-section | markdownify }}
                {% endif %}
       
       </div><!-- end column -->
       
                   
-                   {% if page.title == "Beavers 2" %}
+                  <!-- {% if page.title == "Beavers 2" %}
                   <div class="column">
       <img class="fluid" src="{{site.data.beavers2.second-image}}">
                             </div><!-- end img column -->
-                {% elsif page.title == "Cubs 2" %}
+               <!-- {% elsif page.title == "Cubs 2" %}
                 <div class="column">
       <img class="fluid" src="{{site.data.beavers2.second-image}}">
                  </div><!-- end img column -->
-               {% endif %}
+               <!--{% endif %}-->
       
       </div><!-- end flexdiv -->
         </div><!-- end inner -->
