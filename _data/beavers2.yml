@@ -1,0 +1,9 @@
+    
+title: Beavers yml title
+layout: section-page
+intro: This is the intro section.
+second-section: This is the second section on the page, for things like programme info.
+body: Intro section text
+intro-image: /images/beaver-running.jpg
+second-text: Second section, e.g. programme info
+second-image: /images/cubs-in-helmets-outdoors.jpg
