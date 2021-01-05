@@ -57,7 +57,10 @@ collections:
           name: 'intro-image'
           widget: 'image'
           required: false
-        - label: 'secondary section'
+        - label: 'Secondary section heading'
+          name: 'second-heading'
+          required: false
+        - label: 'Secondary section text'
           name: 'second-section'
           required: false
           widget: 'markdown'
@@ -79,7 +82,10 @@ collections:
           name: 'intro-image'
           widget: 'image'
           required: false
-        - label: 'secondary section'
+        - label: 'Secondary section heading'
+          name: 'second-heading'
+          required: false
+        - label: 'Secondary section text'
           name: 'second-section'
           widget: 'markdown'
           required: false
