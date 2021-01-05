@@ -18,7 +18,17 @@
     <section id="fullwidth" class="outer">
         <div class="inner">
         
-        {{ content }}
+        <ul>
+{% for org_hash in site.data.orgs %}
+{% assign org = org_hash[1] %}
+  <li>
+    <a href="https://example.com/{{ org.username }}">
+      {{ org.name }}
+    </a>
+    ({{ org.members | size }} members)
+  </li>
+{% endfor %}
+</ul>
           </div>
     </section>
         
