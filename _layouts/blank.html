@@ -19,14 +19,17 @@
         <div class="inner">
            <p>blank layout</p>
            <p>abc</p>
-           {% assign orgs_sorted = site.data.orgs | where site.data.orgs.username = "org1" %}
+           <!--{% assign orgs_sorted = site.data.orgs | where site.data.orgs.username == "org1" %}
 {% for org in orgs_sorted %}
   <p><strong>{{ org.name }}</strong> - {{ org.members | size }} members</p>
-{% endfor %}
+{% endfor %}-->
            
            
-       
+       {% for org_hash in site.data.orgs %}
 
+         {% if org_hash[username] == "org1" %}
+           <p>123</p>
+           {% endif %}
            
         <ul>
 {% for org_hash in site.data.orgs %}
