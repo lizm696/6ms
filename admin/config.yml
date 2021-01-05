@@ -64,6 +64,27 @@ collections:
           name: 'second-image'
           widget: 'image'
           required: false 
+    - label: 'Cubs yml'
+      name: 'cubs2'
+      file: '_data/cubss2.yml'
+      fields:
+        - label: 'Title'
+          name: 'title'
+          widget: 'string' 
+        - label: 'Intro'
+          name: 'body'
+          widget: 'markdown' 
+        - label: 'Intro section image'
+          name: 'intro-image'
+          widget: 'image'
+          required: false
+        - label: 'secondary section'
+          name: 'second-text'
+          widget: 'markdown'
+        - label: 'secondary image'
+          name: 'second-image'
+          widget: 'image'
+          required: false 
     - label: 'Join'
       name: 'join'
       file: 'join.md'
