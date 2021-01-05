@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+<!-- header include inc -->
+{% include header.html %}
+
+
+   
+        <!-- MAIN CONTENT -->
+     <main>
+               
+
+             <!--main content to go here-->
+
+          <!-- About us section -->
+    <section id="fullwidth" class="outer">
+        <div class="inner">
+        
+        {{ content }}
+          </div>
+    </section>
+        
+        <!-- end features -->
+
+</main>
+<!-- footer inc -->
+   <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+        {% include footer.html %}
