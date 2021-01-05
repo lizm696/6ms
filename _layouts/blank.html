@@ -25,14 +25,17 @@
 {% endfor %}-->
            
            
-       {% for org_hash in site.data.orgs %}
+       
 
-         {% if org_hash[username] == "org1" %}
-           <p>123</p>
-           {% endif %}
+       
            
         <ul>
 {% for org_hash in site.data.orgs %}
+             
+           {% if org_hash[username] == "org1" %}
+           <p>123</p>
+           {% endif %}
+           
 {% assign org = org_hash[1] %}
   <li>
     <a href="https://example.com/{{ org.username }}">
