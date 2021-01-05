@@ -30,24 +30,34 @@
           <div class="flexdiv">
       <div class="column">
       
-      {% if page.title == "Beavers 2" %}
+         {% if page.title == "Beavers 2" %}
                {{ site.data.beavers2.second-section | markdownify }}
-                {% elsif page.title == "Cubs 2" %}
+              
+               {% if site.data.beavers2.second-image != ""}
+       </div><!-- end column -->
+                  <div class="column">
+                         <img class="fluid" src="{{site.data.beavers2.second-image}}">
+                   </div><!-- end img column -->
+                  {% else %}
+                        </div><!--end first column if no image column required -->
+               {%endif %}
+                        
+             {% elsif page.title == "Cubs 2" %}
                {{ site.data.cubs2.second-section | markdownify }}
-               {% endif %}
+                  {% if site.data.cubs2.second-image != ""}
+                </div><!-- end column -->
+                  <div class="column">
+                         <img class="fluid" src="{{site.data.cubs2.second-image}}">
+                   </div><!-- end img column -->
+                  {% else %}
+                        </div><!--end first column if no image column required -->
+                  {%endif %}
+         {% endif %}
       
-      </div><!-- end column -->
+ 
       
                   
-                  <!-- {% if page.title == "Beavers 2" %}
-                  <div class="column">
-      <img class="fluid" src="{{site.data.beavers2.second-image}}">
-                            </div><!-- end img column -->
-               <!-- {% elsif page.title == "Cubs 2" %}
-                <div class="column">
-      <img class="fluid" src="{{site.data.beavers2.second-image}}">
-                 </div><!-- end img column -->
-               <!--{% endif %}-->
+                  
       
       </div><!-- end flexdiv -->
         </div><!-- end inner -->
