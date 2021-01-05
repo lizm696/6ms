@@ -19,7 +19,7 @@
         <div class="inner">
            <p>blank layout</p>
            
-           {% assign orgs_sorted = site.data.orgs | where "username", "org1" %}
+           {% assign orgs_sorted = site.data.orgs | where site.data.orgs.username = "org1" %}
 {% for org in orgs_sorted %}
   <p><strong>{{ org.name }}</strong> - {{ org.members | size }} members</p>
 {% endfor %}
