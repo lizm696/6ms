@@ -19,21 +19,18 @@
 
 </div>
        
-
-        
-          {% assign sorted-data = site.data | where: "name", page.title %}
-          
-          {% for site.data in sorted-data %}
-          
-       
           <section id="fullwidth" class="outer">
                 <div class="inner">
 
-          <h2>{{ full-width-content.name }}</h2>
+       <!-- h2 did go here, outside of flexdiv -->
           <div class="flexdiv">
       <div class="column">
       
-      {{ data.second-text | markdownify }}
+      {% if page.title == "Beavers 2" %}
+               {{ site.data.beavers2.second-text }}
+                {% elsif page.title == "Cubs 2" %}
+               {{ site.data.cubs2.second-text }}
+               {% endif %}
       
       </div><!-- end column -->
       
