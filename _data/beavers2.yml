@@ -4,9 +4,11 @@ body: Beaver Scouts are the youngest section of the Scouting family. Their
   playing games, going out on visits, investigating nature, listening to
   stories, learning how to be safe and most importantly, making new friends.
 intro-image: ""
-second-section: >
-  This is an example of a full term of activities at 6th Morpeth Beavers. We
-  enjoy doing many of our activities outdoors when the weather permits!
+second-section: >-
+  ## A heading
+
+
+  This is an example of a full term of activities at 6th Morpeth Beavers. We enjoy doing many of our activities outdoors when the weather permits!
 
 
   * Lodges & Beaver Games
