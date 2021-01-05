@@ -12,8 +12,10 @@
         <!--main content to go here-->
         {% if page.title == "Beavers 2" %}
                {{ site.data.beavers2.intro }}
+               {{ site.data.beavers2.intro-image }} 
                 {% elsif page.title == "Cubs 2" %}
                {{ site.data.cubs2.intro }}
+               {{ site.data.beavers2.intro-image }} 
                {% endif %}
 
 
@@ -23,29 +25,33 @@
                 <div class="inner">
 
        <!-- h2 did go here, outside of flexdiv -->
+                        
           <div class="flexdiv">
       <div class="column">
       
       {% if page.title == "Beavers 2" %}
-               {{ site.data.beavers2.second-text }}
+               {{ site.data.beavers2.second-section }}
                 {% elsif page.title == "Cubs 2" %}
-               {{ site.data.cubs2.second-text }}
+               {{ site.data.cubs2.second-section }}
                {% endif %}
       
       </div><!-- end column -->
       
-      {% if full-width-content.img %}
+                  
+                   {% if page.title == "Beavers 2" %}
                   <div class="column">
+      <img class="fluid" src="{{site.data.beavers2.second-image}}">
+                            </div><!-- end img column -->
+                {% elsif page.title == "Cubs 2" %}
+                <div class="column">
+      <img class="fluid" src="{{site.data.beavers2.second-image}}">
+                 </div><!-- end img column -->
+               {% endif %}
       
-      <img class="fluid" src="{{site.baseurl}}/images/{{full-width-content.img}}">
-      
-      </div><!-- end img column -->
-                  {% endif %}
       </div><!-- end flexdiv -->
         </div><!-- end inner -->
         </section>
 
-        {% endfor %}
 
 <!--  extra section -->
 <section id="boxes-section">
