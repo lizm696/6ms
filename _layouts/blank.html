@@ -42,11 +42,14 @@
     ({{ org.members | size }} members)
   </li>
   
-        {% if org_hash["username"] contains "1" %}
-       <li>123</li>
-           {% endif %}
 {% endfor %}
 </ul>
+           {% for org_hash in site.data.orgs %}
+           {% if org_hash.username contains "1" %}
+         
+           {{ org.name }}<b>***</b>
+           {% endif %}
+           {% endfor %}
           </div>
     </section>
         
