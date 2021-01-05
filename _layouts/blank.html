@@ -18,7 +18,7 @@
     <section id="fullwidth" class="outer">
         <div class="inner">
            <p>blank layout</p>
-           
+           <p>abc</p>
            {% assign orgs_sorted = site.data.orgs | where site.data.orgs.username = "org1" %}
 {% for org in orgs_sorted %}
   <p><strong>{{ org.name }}</strong> - {{ org.members | size }} members</p>
