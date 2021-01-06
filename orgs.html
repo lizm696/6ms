@@ -5,5 +5,5 @@ layout: blank
 
        {% assign source = "org1" %}
               {% for item in site.data.orgs[source] %}		
-            <b>print {{name}}</b>		
+            <b>print {{item.name}}</b>		
   {% endfor %}
