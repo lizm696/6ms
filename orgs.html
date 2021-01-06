@@ -1,9 +1,16 @@
 ---
 layout: blank
+section: org1
 ---
 
 
-       {% assign source = "org1" %}
-              {% for item in site.data.orgs[source] %}		
-            <b>do {{item.name}}</b>		
+       {% assign sourcey = "org1" %}
+              {% for item in site.data.orgs[page.sourcey] %}		
+            <b>do {{sourcey.name}}</b>		
   {% endfor %}
+
+
+
+{% assign section = site.data.orgs[page.section] %}
+
+<b> {{ section.name }} {{ section.username }}</b>
