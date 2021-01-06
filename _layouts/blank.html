@@ -44,10 +44,10 @@
   
 {% endfor %}
 </ul>
-           {% for item in site.data.orgs.[org1] %}
-    {% if item.name contains "a" %}
-    {{item}}
-    {% endif %}
+           
+            {% for item in site.data.orgs[source] %}
+           <b>print {{org.name}}</b>
+   
 {% endfor %}
           </div>
     </section>
