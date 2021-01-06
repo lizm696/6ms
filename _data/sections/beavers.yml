@@ -1,6 +1,4 @@
-
-
-title: Beavers yml title
+title: Beavers1
 body: Beaver Scouts are the youngest section of the Scouting family. Their
   activities are based around making things, outdoor activities, singing,
   playing games, going out on visits, investigating nature, listening to
@@ -25,3 +23,16 @@ second-section: >-
   * Carol Singing
   * Christmas Crafts
 second-image: /images/cubs-in-helmets-outdoors.jpg
+
+
+username: org1
+name: org no 1
+members:
+  - name: John Smith
+    text: Info about John Smith
+
+  - name: Parker Moore
+    text: Info about Parker Moore
+    
+  - name: Tom Jones
+    text: Info about Tom Jones
