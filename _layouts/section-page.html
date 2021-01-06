@@ -10,61 +10,55 @@
 <main>
         <div class="inner">
         <!--main content to go here-->
-                <p><strong>testing in progress</strong></p>
-        {% if page.title == "Beavers 2" %}
-               {{ site.data.beavers2.body | markdownify }}
-                <img src="{{site.data.beavers2.intro-image}}">
-                {% elsif page.title == "Cubs 2" %}
-               {{ site.data.cubs2.body | markdownify }}
-                  <img src="{{site.data.cubs2.intro-image}}">
-               {% endif %}
+       
+{{ content }}
 
 
 </div>
+
+      <!--testing section as data field-->
+          <section id="fullwidth" class="outer">
+                <div class="inner">
+                        
+                        <h2>{{ second-section.label }}</h2>
+          <div class="flexdiv">
+      <div class="column">
+      
+      {{ second-section. | markdownify }}
+      
+      </div><!-- end column -->
+                   </div><!-- end flexdiv -->
+        </div><!-- end inner -->
+        </section>
+
+          {% assign sorted-full-width-contents = site.full-width-contents | where: "section", page.title %}
+          
+          {% for full-width-content in sorted-full-width-contents %}
+          
        
           <section id="fullwidth" class="outer">
                 <div class="inner">
 
-                        {% if page.title == "Beavers 2" %}
-                        <h2>{{ site.data.beavers2.second-heading }} </h2>
-                        {% endif %}
-                        
+          <h2>{{ full-width-content.name }}</h2>
           <div class="flexdiv">
       <div class="column">
       
-         {% if page.title == "Beavers 2" %}
-               {{ site.data.beavers2.second-section | markdownify }}
-              
-               {% if site.data.beavers2.second-image != "" %}
-       </div><!-- end column -->
+      {{ full-width-content.content | markdownify }}
+      
+      </div><!-- end column -->
+      
+      {% if full-width-content.img %}
                   <div class="column">
-                         <img class="fluid" src="{{site.data.beavers2.second-image}}">
-                   </div><!-- end img column -->
-                  {% else %}
-                        </div><!--end first column if no image column required -->
-               {%endif %}
-                        
-             {% elsif page.title == "Cubs 2" %}
-               {{ site.data.cubs2.second-section | markdownify }}
-                  {% if site.data.cubs2.second-image != "" %}
-                </div><!-- end column -->
-                  <div class="column">
-                         <img class="fluid" src="{{site.data.cubs2.second-image}}">
-                   </div><!-- end img column -->
-                  {% else %}
-                        </div><!--end first column if no image column required -->
-                  {%endif %}
-         {% endif %}
       
- 
+      <img class="fluid" src="{{site.baseurl}}/images/{{full-width-content.img}}">
       
-                  
-                  
-      
+      </div><!-- end img column -->
+                  {% endif %}
       </div><!-- end flexdiv -->
         </div><!-- end inner -->
         </section>
 
+        {% endfor %}
 
 <!--  extra section -->
 <section id="boxes-section">
