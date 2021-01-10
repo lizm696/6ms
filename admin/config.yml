@@ -43,7 +43,7 @@ collections:
             - label: 'Image'
               name: 'image'
               widget: 'image'
-     - label: 'Beavers new data folder'
+    - label: 'Beavers new data folder'
       name: 'beaversnd'
       file: '_data/sections/beavers.yml'
       fields:
