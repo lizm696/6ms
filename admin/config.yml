@@ -43,31 +43,6 @@ collections:
             - label: 'Image'
               name: 'image'
               widget: 'image'
-    - label: 'Beavers new data folder'
-      name: 'beaversnd'
-      file: '_data/sections/beavers.yml'
-      fields:
-        - label: 'Title'
-          name: 'title'
-          widget: 'string' 
-        - label: 'Intro'
-          name: 'body'
-          widget: 'markdown' 
-        - label: 'Intro section image'
-          name: 'intro-image'
-          widget: 'image'
-          required: false
-        - label: 'Secondary section heading'
-          name: 'second-heading'
-          required: false
-        - label: 'Secondary section text'
-          name: 'second-section'
-          required: false
-          widget: 'markdown'
-        - label: 'secondary image'
-          name: 'second-image'
-          widget: 'image'
-          required: false 
     - label: 'Beavers yml'
       name: 'beavers2'
       file: '_data/beavers2.yml'
