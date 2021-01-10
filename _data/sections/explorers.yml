@@ -1,1 +1,8 @@
-
+body: This is the intro section on the Explorers page. This text was added using
+  Netlify CMS.
+box1-heading: Feature 1 heading
+box1-text: Feature 1 text
+box1-image: /images/explorer-campfire-3.jpg
+box2-heading: Feature 2 heading
+box2-text: Feature 2  text. This can all be edited in Netlify CMS.
+box2-image: /images/young-leader-explorer-with-cub.jpg
