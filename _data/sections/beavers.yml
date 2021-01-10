@@ -42,12 +42,4 @@ second-section: >-
 
   * Christmas Crafts
 second-image: /images/cubs-in-helmets-outdoors.jpg
-name: org no 1
-username: org1
-members:
-  - name: John Smith
-    text: Info about John Smith
-  - name: Parker Moore
-    text: Info about Parker Moore
-  - name: Tom Jones
-    text: Info about Tom Jones
+
