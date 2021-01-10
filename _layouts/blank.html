@@ -58,7 +58,7 @@
              
                                         <div class="box-img-wrap">
                                                 {% if section.box1-image %}
-                                                <img class="fluid" src="{{site.baseurl}}/images/{{section.box1-image}}">
+                                                <img class="fluid" src="{{section.box1-image}}">
                                         {% else %}
                                         <img class="fluid" src="{{site.baseurl}}/images/fleur-de-lis-marque-white.png" style="width: 150px; height: 150px;">
                                         {% endif %} 
@@ -68,6 +68,24 @@
                                                 <p>{{ section.box1-text | markdownify }}</p>      
                                         </div><!-- box content -->
                            
+                                        {% if page.section != "" %}
+                                        <div class="box {{page.section}}-colour">
+                                        {% else %}
+                                        <div class="box">
+                                           {% endif %}
+             
+                                        <div class="box-img-wrap">
+                                                {% if section.box2-image %}
+                                                <img class="fluid" src="{{section.box1-image}}">
+                                        {% else %}
+                                        <img class="fluid" src="{{site.baseurl}}/images/fleur-de-lis-marque-white.png" style="width: 150px; height: 150px;">
+                                        {% endif %} 
+                                        </div><!--img wrap-->
+                                        <div class="box-content">
+                                                <h2>{{ section.box2-heading }}</h2>
+                                                <p>{{ section.box2-text | markdownify }}</p>      
+                                        </div><!-- box content -->
+                                           
                         </div><!-- box wrapper -->
                 <!--</div>--><!-- inner -->
                              
