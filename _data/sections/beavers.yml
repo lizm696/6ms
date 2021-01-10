@@ -1,38 +1,53 @@
 title: Beavers1
-body: Beavers are the youngest section of the Scouting family. Their
-  activities are based around making things, outdoor activities, singing,
-  playing games, going out on visits, investigating nature, listening to
-  stories, learning how to be safe and most importantly, making new friends.
+body: Beavers are the youngest section of the Scouting family. Their activities
+  are based around making things, outdoor activities, singing, playing games,
+  going out on visits, investigating nature, listening to stories, learning how
+  to be safe and most importantly, making new friends.
 intro-image: ""
 second-heading: Beavers' Programme
 second-section: >-
-  This is an example of a full term of activities at 6th Morpeth Beavers. We enjoy doing many of our activities outdoors when the weather permits!
-  * Lodges & Beaver Games
-  * Fitness Games
+  This is an example of a full term of activities at 6th Morpeth Beavers. We
+  enjoy doing many of our activities outdoors when the weather permits! 
+
+
+  * Lodges & Beaver Game
+
+  * Fitness Games  
+
   * A tour of the historic streets of Morpeth
+
   * Animal Night
-  * Fire Station Visit 
+
+  * Fire Station Visit
+
   * Food!
-  * Halloween
+
+  * Halloween 
+
+
   HALF TERM
+
+
   * Lino Cut Printing
+
   * Knots etc
+
   * Space Badge (Week 1)
+
   * Space Badge (Week 2)
+
   * Card delivery
+
   * Carol Singing
+
   * Christmas Crafts
 second-image: /images/cubs-in-helmets-outdoors.jpg
-
-
-username: org1
 name: org no 1
+username: org1
 members:
   - name: John Smith
     text: Info about John Smith
-
   - name: Parker Moore
     text: Info about Parker Moore
-    
   - name: Tom Jones
     text: Info about Tom Jones
