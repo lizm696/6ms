@@ -77,7 +77,6 @@ collections:
         - label: 'Feature 1 image"
           name: 'box1-image'
           widget: 'image'
-          create: true
         - label: 'Feature 2 heading'
           name: 'box2-heading'
         - label: 'Feature 2 text'
@@ -86,7 +85,6 @@ collections:
         - label: 'Feature 2 image"
           name: 'box2-image'
           widget: 'image'
-          create: true
     - label: 'Cubs'
       name: 'cubsnd'
       file: '_data/sections/cubs.yml'
