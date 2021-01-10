@@ -39,6 +39,42 @@
         </div><!-- end inner -->
         </section>
  
+        <!--  extra section -->
+<section id="boxes-section">
+                    
+                        <div id="boxes-wrapper">
+
+                                        {% if page.section == "beavers" %}
+                                        <div class="box beavers-colour">
+                                        {% elsif page.section == "cubs" %}
+                                        <div class="box cubs-colour">
+                                        {% elsif page.section == "scouts" %}
+                                        <div class="box scouts-colour">
+                                        {% elsif page.section == "explorers" %}
+                                        <div class="box explorers-colour">
+                                        {% else %}
+                                        <div class="box">
+                                        {% endif %}
+             
+                                        <div class="box-img-wrap">
+                                                {% if section.extra.img %}
+                                                <img class="fluid" src="{{site.baseurl}}/images/{{section.extra.img}}">
+                                        {% else %}
+                                        <img class="fluid" src="{{site.baseurl}}/images/fleur-de-lis-marque-white.png" style="width: 150px; height: 150px;">
+                                        {% endif %} 
+                                        </div><!--img wrap-->
+                                        <div class="box-content">
+                                                <h2>{{ section.extra.name }}</h2>
+                                                <p>{{ section.extra.content | markdownify }}</p>      
+                                        </div><!-- box content -->
+                                </div><!-- box -->
+                                {% endfor %}
+                        </div><!-- box wrapper -->
+                <!--</div>--><!-- inner -->
+                             
+</section>
+
+
 </main>
    
 <!-- footer inc -->
