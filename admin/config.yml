@@ -69,6 +69,24 @@ collections:
           name: 'second-image'
           widget: 'image'
           required: false 
+        - label: 'Feature 1 heading'
+          name: 'box1-heading'
+        - label: 'Feature 1 text'
+          name: 'box1-text'
+          widget: 'markdown'
+        - label: 'Feature 1 image"
+          name: 'box1-image'
+          widget: 'image'
+          create: true
+        - label: 'Feature 2 heading'
+          name: 'box2-heading'
+        - label: 'Feature 2 text'
+          name: 'box2-text'
+          widget: 'markdown'
+        - label: 'Feature 2 image"
+          name: 'box2-image'
+          widget: 'image'
+          create: true
     - label: 'Cubs'
       name: 'cubsnd'
       file: '_data/sections/cubs.yml'
