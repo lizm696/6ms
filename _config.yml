@@ -1,10 +1,4 @@
 exclude: ["README.md"]
 permalink: pretty
 collections:
-  extras:
-  full-width-contents:
   homepage-features:
-  section-pages:
-    extension: html
-    output: true
-    permalink: /:name
