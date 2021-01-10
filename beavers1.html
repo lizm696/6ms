@@ -5,14 +5,18 @@ section: beavers
 
 {% assign section = site.data.sections[page.section] %}
 
-<b> {{ section.title }} </b>
+<h2> {{ section.title }} </h2>
 
 {{ section.body }}
-
+{% if section.intro-image !="" %}
+<img src="{{section.intro-image}}" alt=""><caption>this is the intro image</caption>
+{% endif %}
 
 <div>
-  <p>testing second section all</p>
-  {{ section.second-heading }}
-  {{ section.second-section }}
-  {{ section.second-image }}
+  <h2>{{ section.second-heading }}</h2>
+  
+  {{ section.second-section | markdownify }}
+  {% if section.intro-image !="" %}
+<img src="{{section.second-image}}" alt=""><caption>this is the second section image</caption>
+{% endif %}
 </div>
