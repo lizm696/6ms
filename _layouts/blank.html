@@ -10,22 +10,42 @@
    
         <!-- MAIN CONTENT -->
      <main>
-               
-
-             <!--main content to go here-->
-
-          <!-- About us section -->
-    <section id="fullwidth" class="outer">
         <div class="inner">
-           
-           {{ content }}
-          
-          </div>
-    </section>
-        
-        <!-- end features -->
+           {% assign section = site.data.sections[page.section] %}
 
+<h2> {{ section.title }} </h2>
+
+{{ section.body }}
+{% if section.intro-image !="" %}
+<img src="{{section.intro-image}}" alt=""><caption>this is the intro image</caption>
+{% endif %}
+
+        </div>
+   <!-- second section -->
+        
+        {% assign sorted-full-width-contents = site.full-width-contents | where: "section", page.title %}
+          
+          {% for full-width-content in sorted-full-width-contents %}
+          
+       
+          <section id="fullwidth" class="outer">
+                <div class="inner">
+                   <h2>{{ section.second-heading }}</h2>
+   <div class="flexdiv">
+      <div class="column">
+  {{ section.second-section | markdownify }}
+           </div><!-- end column -->
+  {% if section.intro-image %}
+       <div class="column">
+<img class="fluid" src="{{section.second-image}}" alt=""><caption>this is the second section image</caption>
+</div><!-- end img column -->
+                  {% endif %}
+      </div><!-- end flexdiv -->
+        </div><!-- end inner -->
+        </section>
+ 
 </main>
+   
 <!-- footer inc -->
    <script>
   if (window.netlifyIdentity) {
