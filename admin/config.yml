@@ -82,7 +82,7 @@ collections:
         - label: 'Feature 2 text'
           name: 'box2-text'
           widget: 'markdown'
-        - label: 'Feature 2 image"
+        - label: 'Feature 2 image'
           name: 'box2-image'
           widget: 'image'
     - label: 'Cubs'
