@@ -5,7 +5,7 @@
 
 <!-- header include inc -->
 {% include header.html %}
-
+{% include hero.html %}
 
    
         <!-- MAIN CONTENT -->
@@ -16,8 +16,8 @@
 <h2> {{ section.title }} </h2>
 
 {{ section.body }}
-{% if section.intro-image !="" %}
-<img src="{{section.intro-image}}" alt=""><caption>this is the intro image</caption>
+{% if section.intro-image %}
+<img class="fluid" src="{{section.intro-image}}" alt="">
 {% endif %}
 
         </div>
@@ -32,7 +32,7 @@
            </div><!-- end column -->
   {% if section.intro-image %}
        <div class="column">
-<img class="fluid" src="{{section.second-image}}" alt=""><caption>this is the second section image</caption>
+<img class="fluid" src="{{section.second-image}}" alt="">
 </div><!-- end img column -->
                   {% endif %}
       </div><!-- end flexdiv -->
