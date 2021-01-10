@@ -74,7 +74,7 @@ collections:
         - label: 'Feature 1 text'
           name: 'box1-text'
           widget: 'markdown'
-        - label: 'Feature 1 image"
+        - label: 'Feature 1 image'
           name: 'box1-image'
           widget: 'image'
         - label: 'Feature 2 heading'
