@@ -1,5 +1,5 @@
 ---
 title: Cubs
-layout: section-page
+layout: blank
+section: cubs
 ---
-Cubs get opportunities to learn and take part in activities like swimming, computing, collecting, sports and exploring. All of these activities can earn them badges. Cubs also take part in days out and get the opportunity to go camping as well as lots of other outdoor activities.
