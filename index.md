@@ -3,7 +3,7 @@ layout: default
 title: About Us
 ---
 
-At 6th Morpeth Scouts we offer a range of activities, challenges and experiences to engage and support young people in their personal development, empowering them to make a positive contribution to society.
+Here at 6th Morpeth Scouts we offer a range of activities, challenges and experiences to engage and support young people in their personal development, empowering them to make a positive contribution to society.
 
 The Scouting programme provides a structure of badges and awards, which are progressive through the sections, and based on a number of objectives.
 
