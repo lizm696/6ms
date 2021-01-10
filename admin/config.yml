@@ -43,8 +43,8 @@ collections:
             - label: 'Image'
               name: 'image'
               widget: 'image'
-    - label: 'Beavers new data folder'
-      name: 'beaversnd'
+    - label: 'Beavers'
+      name: 'beavers'
       file: '_data/sections/beavers.yml'
       fields:
         - label: 'Heading'
@@ -86,7 +86,7 @@ collections:
           name: 'box2-image'
           widget: 'image'
     - label: 'Cubs'
-      name: 'cubsnd'
+      name: 'cubs'
       file: '_data/sections/cubs.yml'
       fields:
         - label: 'Heading'
@@ -128,7 +128,7 @@ collections:
           name: 'box2-image'
           widget: 'image'
     - label: 'Scouts'
-      name: 'Scoutsnd'
+      name: 'Scouts'
       file: '_data/sections/scouts.yml'
       fields:
         - label: 'Heading'
@@ -170,7 +170,7 @@ collections:
           name: 'box2-image'
           widget: 'image'
     - label: 'Explorers'
-      name: 'explorersnd'
+      name: 'explorers'
       file: '_data/sections/explorers.yml'
       fields:
         - label: 'Heading'
@@ -211,7 +211,6 @@ collections:
         - label: 'Feature 2 image'
           name: 'box2-image'
           widget: 'image'
-   
     - label: 'Join'
       name: 'join'
       file: 'join.md'
@@ -220,34 +219,6 @@ collections:
         - { label: 'Layout', name: 'layout', widget: 'hidden' }
         - { label: 'Intro', name: 'body', widget: 'markdown' }
         - { label: 'Secondary content', name: 'second-section', widget: 'markdown' }
-    - label: 'Beavers'
-      name: 'beavers'
-      file: 'beavers.md'
-      fields:
-        - { label: 'Title', name: 'title', widget: 'hidden' }
-        - { label: 'Layout', name: 'layout', widget: 'hidden' }
-        - { label: 'Body', name: 'body', widget: 'markdown' }
-    - label: 'Cubs'
-      name: 'cubs'
-      file: 'cubs.md'
-      fields:
-        - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
-        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
-        - { label: 'Body', name: 'body', widget: 'markdown' }
-    - label: 'Scouts'
-      name: 'scouts'
-      file: 'scouts.md'
-      fields:
-        - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
-        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
-        - { label: 'Body', name: 'body', widget: 'markdown' }
-    - label: 'Explorers'
-      name: 'explorers'
-      file: 'explorers.md'
-      fields:
-        - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
-        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
-        - { label: 'Body', name: 'body', widget: 'markdown' }    
     - label: 'Contact us'
       name: 'contact'
       file: 'contact.md'
@@ -282,19 +253,3 @@ collections:
         - { label: 'Title', name: 'title', widget: 'string' }
         - { label: 'Body', name: 'body', widget: 'markdown' } 
         - { label: 'Image', name: 'image', widget: 'image' }
-- name: 'section-pages'
-  label: 'Section pages'
-  folder: '_section-pages/'
-  create: true
-  media_folder: '/images'
-  public_folder: 'images'
-  extension: html
-  editor:
-    preview: false
-  fields:  
-        - { label: 'Title', name: 'title', widget: 'string' }
-        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'section-page' }
-        - { label: 'Intro', name: 'body', widget: 'markdown' } 
-        - { label: 'Intro section image', name: 'intro-image', widget: 'image', required: false }
-        - { label: 'secondary section', name: 'second-text', widget: 'markdown' } 
-        - { label: 'secondary image', name: 'second-image', widget: 'image', required: false }
