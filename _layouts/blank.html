@@ -57,23 +57,21 @@
                                         {% endif %}
              
                                         <div class="box-img-wrap">
-                                                {% if section.extra.img %}
-                                                <img class="fluid" src="{{site.baseurl}}/images/{{section.extra.img}}">
+                                                {% if section.box1-image %}
+                                                <img class="fluid" src="{{site.baseurl}}/images/{{section.box1-image}}">
                                         {% else %}
                                         <img class="fluid" src="{{site.baseurl}}/images/fleur-de-lis-marque-white.png" style="width: 150px; height: 150px;">
                                         {% endif %} 
                                         </div><!--img wrap-->
                                         <div class="box-content">
-                                                <h2>{{ section.extra.name }}</h2>
-                                                <p>{{ section.extra.content | markdownify }}</p>      
+                                                <h2>{{ section.box1-heading }}</h2>
+                                                <p>{{ section.box1-text | markdownify }}</p>      
                                         </div><!-- box content -->
-                                </div><!-- box -->
-                                {% endfor %}
+                           
                         </div><!-- box wrapper -->
                 <!--</div>--><!-- inner -->
                              
 </section>
-
 
 </main>
    
