@@ -1,5 +1,5 @@
 ---
-layout: section-page
+layout: blank
 title: Contact us
 ---
 
