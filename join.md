@@ -2,9 +2,7 @@
 title: Join us
 layout: blank
 ---
-
-
-  ![](/images/young-leader-explorer-with-cub.jpg)
+![](/images/young-leader-explorer-with-cub.jpg)
 
 Without our volunteers, Scouts wouldn’t exist. Volunteering with the Scouts helps us continue to give our young people new skills and experiences. The more leaders we have, the more young people we can give opportunities to.
 
