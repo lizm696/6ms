@@ -1,5 +1,5 @@
 ---
 title: Scouts
-layout: blank
+layout: section-page
 section: scouts
 ---
