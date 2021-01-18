@@ -1,93 +1,103 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
 <!-- header include inc -->
 {% include header.html %}
-
 {% include hero.html %}
 
-<main>
+   
+        <!-- MAIN CONTENT -->
+     <main>
         <div class="inner">
-        <!--main content to go here-->
-       
-{{ content }}
+           {% assign section = site.data.sections[page.section] %}
 
+<h2> {{ section.title }} </h2>
 
-</div>
+{{ section.body }}
+{% if section.intro-image %}
+<img src="{{section.intro-image}}" alt="">
+{% endif %}
 
-
-          {% assign sorted-full-width-contents = site.full-width-contents | where: "section", page.title %}
-          
-          {% for full-width-content in sorted-full-width-contents %}
-          
-       
+        </div>
+   <!-- second section -->
+         
           <section id="fullwidth" class="outer">
                 <div class="inner">
-
-          <h2>{{ full-width-content.name }}</h2>
-          <div class="flexdiv">
+                   <h2>{{ section.second-heading }}</h2>
+   <div class="flexdiv">
       <div class="column">
-      
-      {{ full-width-content.content | markdownify }}
-      
-      </div><!-- end column -->
-      
-      {% if full-width-content.img %}
-                  <div class="column">
-      
-      <img class="fluid" src="{{site.baseurl}}/images/{{full-width-content.img}}">
-      
-      </div><!-- end img column -->
+  {{ section.second-section | markdownify }}
+           </div><!-- end column -->
+  {% if section.intro-image %}
+       <div class="column">
+<img class="fluid" src="{{section.second-image}}" alt="">
+</div><!-- end img column -->
                   {% endif %}
       </div><!-- end flexdiv -->
         </div><!-- end inner -->
         </section>
-
-        {% endfor %}
-
-<!--  extra section -->
+ 
+        <!--  extra section -->
 <section id="boxes-section">
-       
-                <!--<div class="flexdiv">-->
                     
                         <div id="boxes-wrapper">
-                        
-                                {% assign sorted-extras = site.extras | where: "section", page.title %}
-                        
-                                {% for extra in sorted-extras %}
-        
-                                        {% if page.title == "Beavers" %}
-                                        <div class="box beavers-colour">
-                                        {% elsif page.title == "Cubs" %}
-                                        <div class="box cubs-colour">
-                                        {% elsif page.title == "Scouts" %}
-                                        <div class="box scouts-colour">
-                                        {% elsif page.title == "Explorers" %}
-                                        <div class="box explorers-colour">
-                                        {% else %}
-                                        <div class="box">
-                                        {% endif %}
+
+                                {% if page.section != "" %}
+                                    <div class="box {{page.section}}-colour">
+                                {% else %}
+                                    <div class="box">
+                                {% endif %}
              
                                         <div class="box-img-wrap">
-                                                {% if extra.img %}
-                                                <img class="fluid" src="{{site.baseurl}}/images/{{extra.img}}">
-                                        {% else %}
-                                        <img class="fluid" src="{{site.baseurl}}/images/fleur-de-lis-marque-white.png" style="width: 150px; height: 150px;">
-                                        {% endif %} 
+                                          {% if section.box1-image %}
+                                             <img class="fluid" src="{{section.box1-image}}">
+                                          {% else %}
+                                             <img class="fluid" src="{{site.baseurl}}/images/fleur-de-lis-marque-white.png" style="width: 150px; height: 150px;">
+                                          {% endif %} 
                                         </div><!--img wrap-->
+                                           
                                         <div class="box-content">
-                                                <h2>{{ extra.name }}</h2>
-                                                <p>{{ extra.content | markdownify }}</p>      
+                                            <h2>{{ section.box1-heading }}</h2>
+                                            <p>{{ section.box1-text | markdownify }}</p>      
                                         </div><!-- box content -->
-                                </div><!-- box -->
-                                {% endfor %}
-                        </div><!-- box wrapper -->
-                <!--</div>--><!-- inner -->
-                             
+                                    </div><!-- end box -->
+                                       
+                                        {% if page.section != "" %}
+                                        <div class="box {{page.section}}-colour">
+                                        {% else %}
+                                        <div class="box">
+                                           {% endif %}
+             
+                                           <div class="box-img-wrap">
+                                             {% if section.box2-image %}
+                                                <img class="fluid" src="{{section.box2-image}}">
+                                             {% else %}
+                                                <img class="fluid" src="{{site.baseurl}}/images/fleur-de-lis-marque-white.png" style="width: 150px; height: 150px;">
+                                             {% endif %} 
+                                           </div><!--img wrap-->
+
+                                           <div class="box-content">
+                                              <h2>{{ section.box2-heading }}</h2>
+                                              <p>{{ section.box2-text | markdownify }}</p>      
+                                           </div><!-- box content -->  
+                                         </div><!-- end box-->
+                        </div><!-- box wrapper -->                    
 </section>
 
-
 </main>
+   
 <!-- footer inc -->
+   <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
         {% include footer.html %}
