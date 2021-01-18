@@ -1,5 +1,5 @@
 ---
 title: Cubs
-layout: blank
+layout: section-page
 section: cubs
 ---
