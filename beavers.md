@@ -1,5 +1,5 @@
 ---
 title: Beavers
-layout: blank
+layout: section-page
 section: beavers
 ---
