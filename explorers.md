@@ -1,5 +1,5 @@
 ---
 title: Explorers
-layout: blank
+layout: section-page
 section: explorers
 ---
