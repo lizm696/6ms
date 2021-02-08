@@ -245,8 +245,8 @@ collections:
   label: 'Homepage features'
   folder: '_homepage-features/'
   create: true
-  media_folder: 'images'
-  public_folder: '/images'
+  media_folder: '/images'
+  public_folder: 'images'
   editor:
     preview: false
   fields:  
