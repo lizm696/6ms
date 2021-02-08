@@ -6,7 +6,7 @@ second-section: " We currently have space in Beavers, Cubs and Scouts, if you
 ---
 ![](/images/young-leader-explorer-with-cub.jpg "Join")
 
-We currently have space in Beavers, Cubs and Scouts, if you would like to join us please get in touch.
+We currently have space in Beavers, Cubs and Scouts. If you would like to join us please get in touch.
 
 Without our volunteers, Scouts wouldn’t exist. Volunteering with the Scouts helps us continue to give our young people new skills and experiences. The more leaders we have, the more young people we can give opportunities to.
 
