@@ -4,7 +4,7 @@ layout: blank
 second-section: " We currently have space in Beavers, Cubs and Scouts, if you
   would like to join us please get in touch."
 ---
-![](images/young-leader-explorer-with-cub.jpg "Join")
+![](/images/young-leader-explorer-with-cub.jpg "Join")
 
 We currently have space in Beavers, Cubs and Scouts, if you would like to join us please get in touch.
 
