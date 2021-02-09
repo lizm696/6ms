@@ -15,7 +15,7 @@
 
 <h2> {{ section.title }} </h2>
 
-{{ section.body }}
+{{ section.body | markdownify }}
 {% if section.intro-image %}
 <img src="{{section.intro-image}}" alt="">
 {% endif %}
