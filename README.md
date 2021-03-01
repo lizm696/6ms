@@ -1,7 +1,7 @@
 # 6thmorpethscouts - info for editors
 
 ## Content 
-The site uses a 'content management system' called Netlify CMS. You can edit the content easily through Netlify (which then pushed the changes to this Github repository) or edit the files directly in Github. Netlify gives you a user-friendly interface for editing and means you don't really need to know any Markdown.
+The site uses a 'content management system' called Netlify CMS. You can edit the content easily through Netlify (which then pushes the changes to this Github repository) or edit the files directly in Github. Netlify gives you a user-friendly interface for editing and means you don't really need to know a lot of Markdown.
 
 ## Images
 Images can be uploaded when editing through Netlify. If uploading directly to Github, all images should be uploaded to the 'images' folder. 
@@ -19,7 +19,27 @@ These are parts that are reused across the site, such as the header (navigation)
 These are the items that appear in the three columns/boxes on the homepage, before the footer section. Again, these can be edited and created through Netlify.
 
 ## Deleting and creating new pages
-This cannot be done through Netlify. To create a page/delete a page ...instructions to follow.
+This must be done from the Github repository, it cannot currently be done through Netlify. 
+
+Before creating a new page, think about how this will affect the structure of your site. Can the content be incorporated into an existing page or does it need a page of its own? 
+
+All pages other than the homepage and section pages use the 'blank' page layout (a full page layout without the feature boxes you see on section pages).
+
+### To create a new page:
+
+* Go to the Github root repository (where you will find pages like join.md and location.md)
+* Create a new file with the .md extension, e.g. mynewpage.md
+* Keep the file name succint, lowercase and without spaces
+* Click on the pencil icon to edit your page
+* Put the following at the very top of the file (including the ---):
+* Save the file
+
+
+>\---  
+title: Your Page Title  
+layout: blank  
+\---  
+
 
 
 
