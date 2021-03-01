@@ -40,8 +40,17 @@ layout: blank
 
 * Save the file
 
+#### Add the page to the site navigation
+
+* Go to the data folder
+* Open navigation.yml
+* Enter two new lines for your new page, copying the format you see for the other pages listed, e.g.
+
+>abcd
+
 ### To delete a page
 
 * Ensure you remove any links within the site that point to the page being deleted
-* Find the file in the Github repository
-* Click on the trash can icon
+* Find the file in the Github repository and click on it
+* Click on the trash can icon on the right (next to the pencil icon)
+* Click 'Commit changes' and the page will be deleted
