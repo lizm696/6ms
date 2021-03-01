@@ -3,6 +3,8 @@
 ## Content 
 The site uses a 'content management system' called Netlify CMS. You can edit the content easily through Netlify (which then pushes the changes to this Github repository) or edit the files directly in Github. Netlify gives you a user-friendly interface for editing and means you don't really need to know a lot of Markdown.
 
+**Login link for editors: https://6thmorpethscouts.netlify.app/admin**
+
 ## Images
 Images can be uploaded when editing through Netlify. If uploading directly to Github, all images should be uploaded to the 'images' folder. 
 
@@ -28,7 +30,7 @@ All pages other than the homepage and section pages use the 'blank' page layout 
 ### To create a new page
 
 * Go to the Github root repository (where you will find pages like join.md and location.md)
-* Create a new file with the .md extension, e.g. mynewpage.md
+* Create a new file with the .md extension, e.g. **mynewpage.md**
 * Keep the file name succint, lowercase and without spaces
 * Click on the pencil icon to edit your page
 * Put the following at the very top of the file (including the ---):
@@ -42,12 +44,14 @@ layout: blank
 
 #### Add the page to the site navigation
 
-* Go to the data folder
-* Open navigation.yml and click on the pencil icon to edit
-* Enter two new lines for your new page, copying the format you see for the other pages listed, e.g.
+* Go to the **\_data** folder
+* Open the file **navigation.yml** and click on the pencil icon to edit
+* Enter two new lines for your new page, copying the exact format you see for the other pages listed, e.g.
 
 >\- title: Contact us  
-  path: /contact  
+     path: /contact  
+  
+  **Make sure the exact same indentation is used as it appears in that file!**
   
   The 'path' is what will make up the URL for that page. This must not contain any spaces - if you need to separate words, use a hyphen e.g. /new-page
 
