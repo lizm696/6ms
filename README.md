@@ -43,10 +43,13 @@ layout: blank
 #### Add the page to the site navigation
 
 * Go to the data folder
-* Open navigation.yml
+* Open navigation.yml and click on the pencil icon to edit
 * Enter two new lines for your new page, copying the format you see for the other pages listed, e.g.
 
->abcd
+>\- title: Contact us  
+  path: /contact  
+  
+  The 'path' is what will make up the URL for that page. This must not contain any spaces - if you need to separate words, use a hyphen e.g. /new-page
 
 ### To delete a page
 
