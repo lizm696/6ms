@@ -18,28 +18,30 @@ These are parts that are reused across the site, such as the header (navigation)
 ### homepage-features
 These are the items that appear in the three columns/boxes on the homepage, before the footer section. Again, these can be edited and created through Netlify.
 
-## Deleting and creating new pages
+## Deleting and creating pages
 This must be done from the Github repository, it cannot currently be done through Netlify. 
 
 Before creating a new page, think about how this will affect the structure of your site. Can the content be incorporated into an existing page or does it need a page of its own? 
 
 All pages other than the homepage and section pages use the 'blank' page layout (a full page layout without the feature boxes you see on section pages).
 
-### To create a new page:
+### To create a new page
 
 * Go to the Github root repository (where you will find pages like join.md and location.md)
 * Create a new file with the .md extension, e.g. mynewpage.md
 * Keep the file name succint, lowercase and without spaces
 * Click on the pencil icon to edit your page
 * Put the following at the very top of the file (including the ---):
-* Save the file
-
 
 >\---  
 title: Your Page Title  
 layout: blank  
 \---  
 
+* Save the file
 
+### To delete a page
 
-
+* Ensure you remove any links within the site that point to the page being deleted
+* Find the file in the Github repository
+* Click on the trash can icon
