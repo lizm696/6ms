@@ -41,6 +41,7 @@ layout: blank
 \---  
 
 * Save the file
+* The page will now appear in Netlify CMS and can be edited from there.
 
 #### Add the page to the site navigation
 
