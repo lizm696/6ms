@@ -4,7 +4,9 @@ title: Discounts and more
 img: female-leader-with-large-group.jpg
 image: images/female-leader-with-large-group.jpg
 ---
-Go Outdoors - 10% discount for members and 15% discount for leaders
+Go Outdoors offer 10% discount for members and 15% discount for leaders
 
-Cotswold Outdoors – Cotswold offer a 10% discount for members and a 20% discount for Leaders. To get the discount, simply show your appointment card or necker.
+Cotswold Outdoors offer a 10% discount for members and a 20% discount for Leaders. 
+
+To get the discount simply show your appointment card or necker.
 
