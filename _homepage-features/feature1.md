@@ -1,6 +1,6 @@
 ---
-name: feature1
-title: Feature 1 title
+name: Additional Information
+title: UK Scouts
 image: images/canoes.jpg
 ---
-A feature for the homepage with an image. By default, features are ordered left to right alphabetically by their file name. Canoe image loaded.
+For further information about Scouts please see [Scouts website](https://www.scouts.org.uk)
