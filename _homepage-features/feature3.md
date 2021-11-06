@@ -12,6 +12,5 @@ To get the discount simply show your appointment card or necker.
 
 Uniform can be purchased from
 [UK Scouts](https://shop.scouts.org.uk/uniforms)
-
 [Glasgow Scouts Shop](https://www.glasgowscoutshop.com/)
 
