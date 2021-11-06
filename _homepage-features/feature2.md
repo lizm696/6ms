@@ -14,4 +14,4 @@ We welcome volunteers from every community and background. You don’t need to h
 
 Volunteer today and help us prepare more young people with Skills for Life.
 
-Find out more at scouts.org.uk/join/ or get in touch.
+Find out more at [scouts.org.uk/join/](https://www.scouts.org.uk/)
