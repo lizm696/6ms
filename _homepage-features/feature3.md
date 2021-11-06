@@ -11,6 +11,7 @@ Cotswold Outdoors offer a 10% discount for members and a 20% discount for Leader
 To get the discount simply show your appointment card or necker.
 
 Uniform can be purchased from
-[UK Scouts](https://shop.scouts.org.uk/uniforms)
+
+[UK Scouts](https://shop.scouts.org.uk/uniforms) and 
 [Glasgow Scouts Shop](https://www.glasgowscoutshop.com/)
 
