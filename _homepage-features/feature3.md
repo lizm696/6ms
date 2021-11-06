@@ -1,7 +1,10 @@
 ---
-name: feature3
-title: "Example feature: Volunteer with us"
+name: Usefull Links
+title: Discounts and more
 img: female-leader-with-large-group.jpg
 image: images/female-leader-with-large-group.jpg
 ---
-Gain new skills whilst helping provide unique opportunities for our young people. [Contact us](contact) for more information.
+Go Outdoors - 10% discount for members and 15% discount for leaders
+
+Cotswold Outdoors – Cotswold offer a 10% discount for members and a 20% discount for Leaders. To get the discount, simply show your appointment card or necker.
+
