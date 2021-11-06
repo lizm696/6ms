@@ -1,6 +1,6 @@
 ---
 name: Additional Information
-title: UK and Northumberland Scouts
+title: UK and Castle Morpeth Scouts
 image: images/canoes.jpg
 ---
 For further information about Scouts please see [Scouts website](https://www.scouts.org.uk)
